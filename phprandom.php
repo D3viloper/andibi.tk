@@ -1,3 +1,19 @@
+<?php
+// Information about this page
+//$active = "";
+$page_identifier = "phprandom";
+$page_title = "Random PHP-Test";
+$page_has_extra_navbarentry = "true";
+$page_has_extra_navbarentry_url = "phprandom.php";
+$page_has_extra_navbarentry_title = "Random PHP-Test";
+$isindropdown = "false";
+
+// PHP Random Shuffle
+$slogan = array("Fun & Hacking Board", "Hacken für Spacken", "Noch ein Slogan", "masterP stinkt", "Brawl ist cool", "Pegelf.de - Das N steht für Niveau!", "PENIS");
+	
+$sort = shuffle($slogan); 
+$var = $slogan[0];  
+?>
 <!DOCTYPE html>
 <html lang="de">
   <head>
@@ -30,14 +46,7 @@
   </head>
 
   <body>
-<?php
-$navbarzusatz = '<li class="active"><a href="phprandom.php">Random PHP-Test</a></li>';
-include("inc/navbar.php");
-$slogan = array("Fun & Hacking Board", "Hacken für Spacken", "Noch ein Slogan", "masterP stinkt", "Brawl ist cool", "Pegelf.de - Das N steht für Niveau!", "PENIS");
-	
-$sort = shuffle($slogan); 
-$var = $slogan[0];  
-?>
+    <?php include("inc/navbar.php"); ?>
     <div class="container">
 	  <div class="row">
         <!-- /.col-sm-4 -->

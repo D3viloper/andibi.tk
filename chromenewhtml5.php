@@ -1,3 +1,11 @@
+<?php
+// Information about this page
+$active = "chromenewhtml5";
+$page_identifier = "chromenewhtml5";
+$page_title = "Chrome loves HTML5";
+$page_has_extra_navbarentry = "false";
+$isindropdown = "true";
+?>
 <!DOCTYPE html>
 <html lang="de">
   <head>
@@ -30,12 +38,7 @@
   </head>
 
   <body>
-<?php
-$dropdown = ' active';
-$chromenewhtml5 = ' class="active"';
-include("inc/navbar.php");
-?>
-
+    <?php include("inc/navbar.php"); ?>
     <div class="container">
      <?php include("inc/meldungen.php"); ?>
  <div class="page-header">

@@ -1,3 +1,10 @@
+<?php
+// Information about this page
+$active = "about";
+$page_identifier = "about";
+$page_title = "Über";
+$page_has_extra_navbarentry = "false";
+?>
 <!DOCTYPE html>
 <html>
   <head>
@@ -9,7 +16,7 @@
     <meta http-equiv="expires" content="86400">
     <link rel="shortcut icon" href="favicon.ico">
 
-    <title>ANDIBI.TK | Über</title>
+    <title>ANDIBI.TK | <?php echo $page_title; ?></title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -33,11 +40,7 @@
   </head>
 
   <body>
-<?php
-$about = ' class="active"';
-include("inc/navbar.php");
-?>
-
+    <?php include("inc/navbar.php"); ?>
     <div class="container">
 	    <?php include("inc/meldungen.php"); ?>
         <div class="alert alert-success">

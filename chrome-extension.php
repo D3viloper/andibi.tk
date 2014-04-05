@@ -1,3 +1,20 @@
+<?php
+if($_GET['extension'] == "")
+{
+  $extension = "Chrome";
+}
+else
+{
+  $extension = $_GET['extension'];
+}
+// Information about this page
+//$active = "";
+$page_identifier = "chrome-extension";
+$page_title = "chrome-extension";
+$page_has_extra_navbarentry = "true";
+$page_has_extra_navbarentry_url = "chrome-extension.php";
+$page_has_extra_navbarentry_title = $extension . "-Erweiterung installieren";
+?>
 <!DOCTYPE html>
 <html lang="de">
   <head>
@@ -30,22 +47,7 @@
   </head>
 
   <body>
-  
-<?php
-if($_GET['extension'] == "")
-{
-  $extension = "Chrome";
-}
-else
-{
-  $extension = $_GET['extension'];
-}
-?>
-<?php
-$navbarzusatz = '<li class="active"><a href="chrome-extension.php">' . $extension . '-Erweiterung installieren</a></li>';
-include("inc/navbar.php");
-?>
-
+    <?php include("inc/navbar.php"); ?>
     <div class="container">
         <?php include("inc/meldungen.php"); ?>
 	  <div class="page-header">
@@ -66,9 +68,7 @@ include("inc/navbar.php");
     </div><!-- /.container -->
 	</div>
 	<!-- Footer -->
-<?php
-include("inc/footer.php");
-?>
+    <?php include("inc/footer.php"); ?>
 
     <!-- Bootstrap core JavaScript
     ================================================== -->

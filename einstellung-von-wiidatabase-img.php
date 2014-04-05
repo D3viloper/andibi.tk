@@ -1,3 +1,13 @@
+<?php
+// Information about this page
+//$active = "";
+$page_identifier = "discontinuation-wiidb-img";
+$page_title = "Einstellung von WiiDatabase IMG";
+$page_has_extra_navbarentry = "true";
+$page_has_extra_navbarentry_url = "einstellung-von-wiidatabase-img.php";
+$page_has_extra_navbarentry_title = "Einstellung von WiiDatabase IMG";
+$isindropdown = "false";
+?>
 <!DOCTYPE html>
 <html lang="de">
   <head>
@@ -30,12 +40,7 @@
   </head>
 
   <body>
-<?php
-$navbarzusatz = '<li class="active"><a href="einstellung-von-wiidatabase-img.php">Einstellung von WiiDatabase IMG</a></li>';
-include("inc/navbar.php");
-?>
-
-
+    <?php include("inc/navbar.php"); ?>
         <div class="container">
         <div class="alert alert-danger">WiiDatabase IMG wurde geschlossen.</div>
 	  <div class="page-header">

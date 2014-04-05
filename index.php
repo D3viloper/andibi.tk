@@ -1,3 +1,16 @@
+<?php
+// Information about this page
+$active = "home";
+$page_identifier = "home";
+$page_title = "Home";
+$page_has_extra_navbarentry = "false";
+
+// PHP Countdown
+$zielzeit = mktime(0, 0, 0, 04, 16, 2014);
+$now = time();
+$diff = $zielzeit - $now;
+$tage = ceil($diff / (60*60*24));
+?>
 <!DOCTYPE html>
 <html lang="de">
   <head>
@@ -9,7 +22,7 @@
 	<meta http-equiv="expires" content="86400">
     <link rel="shortcut icon" href="favicon.ico">
 
-    <title>ANDIBI.TK | Home</title>
+    <title>ANDIBI.TK | <?php echo $page_title; ?></title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -30,17 +43,7 @@
   </head>
 
   <body>
-<?php
-$home = ' class="active"';
-include("inc/navbar.php");
-
-// PHP Countdown
-$zielzeit = mktime(0, 0, 0, 04, 16, 2014);
-$now = time();
-$diff = $zielzeit - $now;
-$tage = ceil($diff / (60*60*24));
-?>
-
+    <?php include("inc/navbar.php");?>
     <div class="container">
     <?php include("inc/meldungen.php"); ?>
 	        <div class="jumbotron">
@@ -85,9 +88,7 @@ $tage = ceil($diff / (60*60*24));
     </div><!-- /.container -->
 	</div>
 	<!-- Footer -->
-<?php
-include("inc/footer.php");
-?>
+    <?php include("inc/footer.php"); ?>
 
     <!-- Bootstrap core JavaScript
     ================================================== -->

@@ -1,3 +1,11 @@
+<?php
+// Information about this page
+$active = "useragent";
+$page_identifier = "useragent";
+$page_title = "User-Agent";
+$page_has_extra_navbarentry = "false";
+$isindropdown = "true";
+?>
 <!DOCTYPE html>
 <html lang="de">
   <head>
@@ -30,12 +38,7 @@
   </head>
 
   <body>
-<?php
-$dropdown = ' active';
-$useragent = ' class="active"';
-include("inc/navbar.php");
-?>
-
+    <?php include("inc/navbar.php"); ?>
     <div class="container">
      <?php include("inc/meldungen.php"); ?>
 	  <div class="page-header">

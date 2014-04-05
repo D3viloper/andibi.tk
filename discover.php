@@ -1,3 +1,13 @@
+<?php
+// Information about this page
+//$active = "";
+$page_identifier = "discover";
+$page_title = "Das neue ANDIBI.TK";
+$page_has_extra_navbarentry = "true";
+$page_has_extra_navbarentry_url = "discover.php";
+$page_has_extra_navbarentry_title = "Das neue ANDIBI.TK";
+$isindropdown = "false";
+?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -32,10 +42,7 @@
 <!-- NAVBAR
 ================================================== -->
   <body>
-<?php
-$navbarzusatz = '<li class="active"><a href="discover.php">Das neue ANDIBI.TK</a></li>';
-include("inc/navbar.php");
-?>
+    <?php include("inc/navbar.php"); ?>
 
 
     <!-- Carousel

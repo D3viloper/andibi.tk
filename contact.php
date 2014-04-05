@@ -1,3 +1,10 @@
+<?php
+// Information about this page
+$active = "contact";
+$page_identifier = "contact";
+$page_title = "Kontakt";
+$page_has_extra_navbarentry = "false";
+?>
 <!DOCTYPE html>
 <html lang="de">
   <head>
@@ -30,11 +37,7 @@
   </head>
 
   <body>
-<?php
-$contact = ' class="active"';
-include("inc/navbar.php");
-?>
-
+    <?php include("inc/navbar.php"); ?>
     <div class="container">
 	    <?php include("inc/meldungen.php"); ?>
 	  <div class="page-header">

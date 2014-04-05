@@ -1,3 +1,10 @@
+<?php
+// Information about this page
+$active = "internet";
+$page_identifier = "internet";
+$page_title = "Internet-Special";
+$page_has_extra_navbarentry = "false";
+?>
 <!DOCTYPE html>
 <html lang="de">
 <head>
@@ -26,10 +33,7 @@
 	
   </head>
 <body>
-<?php
-$internet = ' class="active"';
-include("inc/navbar.php");
-?>
+    <?php include("inc/navbar.php"); ?>
 	<div class="container">
     <div class="row">
         <div class="col-md-12">
