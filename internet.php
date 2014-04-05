@@ -12,7 +12,7 @@ $page_has_extra_navbarentry = "false";
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Taxi Müller Homepage">
-	<meta http-equiv="expires" content="86400">
+    <meta http-equiv="expires" content="86400">
 
     <link rel="shortcut icon" href="favicon.ico">
 
@@ -30,11 +30,11 @@ $page_has_extra_navbarentry = "false";
     <!-- Custom styles for this template -->
     <link href="css/404.css" rel="stylesheet">
     <link href="css/template.css" rel="stylesheet">
-	
+
   </head>
 <body>
     <?php include("inc/navbar.php"); ?>
-	<div class="container">
+    <div class="container">
     <div class="row">
         <div class="col-md-12">
             <div class="error-template">
@@ -47,6 +47,9 @@ $page_has_extra_navbarentry = "false";
                     <iframe src="http://free.timeanddate.com/countdown/i432vs5y/n1014/cf12/cm0/cu5/ct0/cs0/ca0/co1/cr0/ss0/cac428bca/cpcf00/pct/tcfff/fs175/szw576/szh243/tatSchaltung%20des%20Internets%20in/tac000/tptInternet%20ist%20geschalten%20seit/tpc000/iso2014-04-16T12:00:00" frameborder="0" width="749" height="150"></iframe>
                 </div><br><br>
                 <h1>Updates immer am Wochenende!</h1>
+                <h2>05. April 2014</h2>
+                <p>1&1 hat die Pakete versandt!</p>
+                <br>
                 <h2>28. März 2014</h2>
                 <p>1&1 gibt voraussichtlichen Schaltungstermin am 16.04.2014!</p>
                 <br><br><br><br>

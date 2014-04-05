@@ -114,12 +114,12 @@ $page_has_extra_navbarentry = "false";
       <hr>
       <div class="well well-sm">
         <div class="media">
-          <a class="thumbnail pull-left" href="#">
-            <img class="media-object" data-src="js/holder.js/50x50">
+          <a class="thumbnail pull-left" href="https://github.com/Brawl345">
+            <img class="img-circle media-object" src="https://avatars2.githubusercontent.com/u/5049892">
           </a>
           <div class="media-body">
             <h4 class="media-heading">Brawl345</h4>
-            <p><span class="label label-info">3 Projekte</span> <span class="label label-success">XX Commits</span> <span class="label label-primary">2 Followers</span></p>
+            <p><span class="label label-info">3 Projekte</span> <span class="label label-success">Mehr als 20 Commits</span> <span class="label label-primary">2 Followers</span></p>
             <p><a href="#" class="btn btn-xs btn-default"><span class="glyphicon glyphicon-comment"></span> Nachricht senden</a>
             <a href="#" class="btn btn-xs btn-default"><span class="glyphicon glyphicon-heart"></span> Folgen</a></p>
           </div>
