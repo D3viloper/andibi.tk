@@ -51,7 +51,6 @@ $tage = ceil($diff / (60*60*24));
         <p>Hier erfährst du etwas über mich und meine Projekte außerhalb der WiiDatabase.</p>
         <p>In <?php print $tage; if ($tage == '1') { echo ' Tag'; } else { echo ' Tagen'; } ?> habe ich endlich wieder regulär Internet!</p>
           <a class="btn btn-lg btn-primary" href="internet.php" role="button">Sieh dir den Countdown an und lese den Internet-Blog &raquo;</a>
-        </p>
       </div>
 
 
