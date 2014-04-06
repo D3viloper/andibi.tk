@@ -4,7 +4,7 @@ include("templates/headInclude.php");
 include("templates/navbar.php");
 ?>
     <div class="container">
-     <?php include("inc/meldungen.php"); ?>
+     <?php include("templates/meldungen.php"); ?>
  <div class="page-header">
 		<h1>Chrome &lt;3 HTML5</h1>
 	  </div>
