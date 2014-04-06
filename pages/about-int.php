@@ -1,9 +1,6 @@
 <?php
 // Information about this page
-$active = "about";
-$page_identifier = "about";
-$page_title = "Über";
-$page_has_extra_navbarentry = "false";
+$shownpage_page = array("page_idf" => "about-int", "title" => "Über");
 ?>
 <!DOCTYPE html>
 <html>
@@ -20,12 +17,12 @@ $page_has_extra_navbarentry = "false";
     <title>+ANDIBI | Über</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="static/css/bootstrap.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="css/gplus.css" rel="stylesheet">
-    <link href="css/genericons.css" rel="stylesheet">
-    <link href="css/custom-genericons.css" rel="stylesheet">
+    <link href="static/css/gplus.css" rel="stylesheet">
+    <link href="static/css/genericons.css" rel="stylesheet">
+    <link href="static/css/custom-genericons.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries (IE SUCKS!) -->
     <!--[if lt IE 9]>
@@ -39,11 +36,11 @@ $page_has_extra_navbarentry = "false";
     </script>
   </head>
     <body>
-    <?php include("inc/plus-navbar.php"); include("inc/plus-meldungen.php"); ?>
+    <?php include("templates/plus-navbar.php"); include("templates/plus-meldungen.php"); ?>
     <!--main-->
     <div class="container" id="main">
     <div class="row">
-      <?php include("inc/meldungen.php"); ?>
+      <?php include("templates/meldungen.php"); ?>
         <div class="alert alert-success">
           <p><strong>Zu interaktiv?</strong> <i><a href="about.php">Wechsle zurück zur alten, langweiligen Ansicht &raquo;</a></i></p>
         </div>
@@ -134,7 +131,7 @@ $page_has_extra_navbarentry = "false";
       <h4>WiiDataDownloader</h4>
     </div>
     <div class="panel-body">
-    <img data-src="js/holder.js/50x50" class="img-circle pull-right">
+    <img data-src="static/js/holder.js/50x50" class="img-circle pull-right">
     <p>Ein Programm zum blablabla...</p>
     <div class="clearfix"></div>
       <hr>
@@ -149,7 +146,7 @@ $page_has_extra_navbarentry = "false";
       <h4>WiiDPaste</h4>
     </div>
     <div class="panel-body">
-    <img data-src="js/holder.js/50x50" class="img-circle pull-left">
+    <img data-src="static/js/holder.js/50x50" class="img-circle pull-left">
     <p>Ein Programm zum blablabla...</p>
     <div class="clearfix"></div>
       <hr>
@@ -159,16 +156,16 @@ $page_has_extra_navbarentry = "false";
      </div><!--/articles-->
    </div>
     <!-- Footer -->
-<?php include("inc/plus-footer.php"); ?>
+<?php include("templates/plus-footer.php"); ?>
         </div><!--/main-->
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="js/jquery-1.10.2.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <!-- <script src="js/togglelayout.js"></script> -->
-    <script src="js/holder.js"></script>
+    <script src="static/js/jquery-1.10.2.min.js"></script>
+    <script src="static/js/bootstrap.min.js"></script>
+    <!-- <script src="static/js/togglelayout.js"></script> -->
+    <script src="static/js/holder.js"></script>
 
     </body>
 </html>

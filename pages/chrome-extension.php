@@ -9,13 +9,12 @@ else
 }
 // Information about this page
 //$active = "";
-$page_identifier = "chrome-extension";
-$page_title = "chrome-extension";
+$shownpage_page = array("page_idf" => "chrome-extension", "title" => $extension . "-Erweiterung installieren");
 $page_has_extra_navbarentry = "true";
 $page_has_extra_navbarentry_url = "chrome-extension.php";
 $page_has_extra_navbarentry_title = $extension . "-Erweiterung installieren";
-include("inc/headInclude.php");
-include("inc/navbar.php");
+include("templates/headInclude.php");
+include("templates/navbar.php");
 ?>
     <div class="container">
         <?php include("inc/meldungen.php"); ?>
@@ -37,12 +36,5 @@ include("inc/navbar.php");
     </div><!-- /.container -->
 	</div>
 	<!-- Footer -->
-    <?php include("inc/footer.php"); ?>
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-  </body>
-</html>
+    <?php include("templates/footer.php");
+          include("templates/htmlEnd.php");?>

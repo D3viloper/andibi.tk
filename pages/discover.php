@@ -1,50 +1,13 @@
 <?php
 // Information about this page
 //$active = "";
-$page_identifier = "discover";
-$page_title = "Das neue ANDIBI.TK";
+$shownpage_page = array("page_idf" => "discover", "title" => "Das neue ANDIBI.TK", "description" => "Entdecke das neue ANDIBI.TK");
 $page_has_extra_navbarentry = "true";
 $page_has_extra_navbarentry_url = "discover.php";
 $page_has_extra_navbarentry_title = "Das neue ANDIBI.TK";
-$isindropdown = "false";
+include("templates/headInclude.php");
+include("templates/navbar.php");
 ?>
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Entdecke das neue ANDIBI.TK">
-    <meta name="author" content="Andreas Bielawski">
-	<meta http-equiv="expires" content="86400">
-
-    <link rel="shortcut icon" href="favicon.ico">
-
-    <title>ANDIBI.TK | Das neue ANDIBI.TK</title>
-
-    <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
-    <![endif]-->
-
-    <!-- Custom styles for this template -->
-    <link href="css/carousel.css" rel="stylesheet">
-	
-	<script type="text/javascript">
-		if (top != self)
-		top.location = self.location;
-	</script>
-  </head>
-<!-- NAVBAR
-================================================== -->
-  <body>
-    <?php include("inc/navbar.php"); ?>
-
-
     <!-- Carousel
     ================================================== -->
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -95,7 +58,7 @@ $isindropdown = "false";
     <!-- Wrap the rest of the page in another container to center all the content. -->
 
     <div class="container marketing">
-    <?php include("inc/meldungen.php"); ?>
+    <?php include("templates/meldungen.php"); ?>
       <!-- Three columns of text below the carousel -->
       <div class="row">
         <div class="col-lg-4">
@@ -168,7 +131,7 @@ $isindropdown = "false";
 	<!-- Footer -->
 <?php
 $zusatz = '- <a href="#">Nach oben</a>';
-include("inc/footer.php");
+include("templates/footer.php");
 ?>
 
     </div><!-- /.container -->
@@ -178,7 +141,7 @@ include("inc/footer.php");
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/holder.js"></script>
+    <script src="static/js/bootstrap.min.js"></script>
+    <script src="static/js/holder.js"></script>
   </body>
 </html>

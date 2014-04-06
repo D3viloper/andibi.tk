@@ -1,12 +1,8 @@
 <?php
-// Information about this page
-//$active = "";
-$page_identifier = "discontinuation-wiidb-img";
-$page_title = "Einstellung von WiiDatabase IMG";
+$shownpage_page = array("page_idf" => "einstellung-von-wiidatabase-img", "title" => "Einstellung von WiiDatabase IMG");
 $page_has_extra_navbarentry = "true";
 $page_has_extra_navbarentry_url = "einstellung-von-wiidatabase-img.php";
 $page_has_extra_navbarentry_title = "Einstellung von WiiDatabase IMG";
-$isindropdown = "false";
 ?>
 <!DOCTYPE html>
 <html lang="de">
@@ -22,10 +18,10 @@ $isindropdown = "false";
     <title>Einstellung von WiiDatabase IMG</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="static/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="css/template.css" rel="stylesheet">
+    <link href="static/css/template.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -40,9 +36,9 @@ $isindropdown = "false";
   </head>
 
   <body>
-    <?php include("inc/navbar.php"); ?>
+    <?php include("templates/navbar.php"); ?>
         <div class="container">
-        <div class="alert alert-danger">WiiDatabase IMG wurde geschlossen.</div>
+        <?php echo meldung("WiiDatabase IMG wurde geschlossen.", danger); ?>
 	  <div class="page-header">
 		<h1>WiiDatabase IMG wurde am 04. April 2014 vollkommen <strong>eingestellt</strong>!</h1>
 	  </div>
@@ -62,13 +58,6 @@ $isindropdown = "false";
 	<!-- Footer -->
 <?php
 $zusatz = '- WiiDatabase IMG war ein Service der <a href="http://wiidatabase.de">WiiDatabase</a>.';
-include("inc/footer.php");
+include("templates/footer.php");
+include("templates/htmlEnd.php");
 ?>
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-  </body>
-</html>

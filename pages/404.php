@@ -1,12 +1,10 @@
 <?php
 // Information about this page
 //$active = "";
-$page_idf = "404";
-$page_title = "404 - Diese Seite wurde nicht gefunden";
-$page_has_extra_navbarentry = "false";
+$shownpage_page = array("page_idf" => "404", "title" => "404 - Diese Seite wurde nicht gefunden");
 
-include("inc/headInclude.php");
-include("inc/navbar.php");
+include("templates/headInclude.php");
+include("templates/navbar.php");
 ?>
 	<div class="container">
     <div class="row">
@@ -21,14 +19,14 @@ include("inc/navbar.php");
                 </div>
                 <div class="error-actions">
                     <a href="index.php" class="btn btn-primary btn-lg"><span class="glyphicon glyphicon-home"></span>
-                        Zur Startseite </a><a href="contact.php" class="btn btn-default btn-lg"><span class="glyphicon glyphicon-envelope"></span> Den Webmaster kontaktieren </a>
+                        Zur Startseite </a><a href="index.php?page=contact" class="btn btn-default btn-lg"><span class="glyphicon glyphicon-envelope"></span> Den Webmaster kontaktieren </a>
                 </div>
             </div>
         </div>
     </div>
 </div>
     <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+    <script src="static/bootstrap.min.js"></script>
 </body>
 </html>
 

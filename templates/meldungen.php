@@ -1,3 +1,3 @@
-       <div class="alert alert-info">
-        <p>Nach reifer Überlegung habe ich mich dazu entschlossen, die ANDIBI.TK Flat Preview fallen zu lassen und mit dem "nackten" Bootstrap weiter zu machen.</p>
-      </div>
+<?php
+echo meldung($config_global_meldung['message'],$config_global_meldung['level']);
+?>

@@ -12,12 +12,12 @@
     <title>creating your beat...</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="../css/bootstrap.css" rel="stylesheet">
+    <link href="../static/css/bootstrap.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
     <link href="uburemix.css" rel="stylesheet">
-	<link href="../css/genericons.css" rel="stylesheet">
-	<link href="../css/custom-genericons.css" rel="stylesheet">
+	<link href="../static/css/genericons.css" rel="stylesheet">
+	<link href="../static/css/custom-genericons.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -100,13 +100,13 @@
 	<!-- Footer -->
 <?php
 $zusatz = '- "Ubuntu" ist eine Marke von Canonical Ltd.';
-include("../inc/footer.php");
+include("../templates/footer.php");
 ?>
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="../jquery-1.10.2.min.js"></script>
-    <script src="../js/bootstrap.min.js"></script>
+    <script src="../static/js/jquery-1.10.2.min.js"></script>
+    <script src="../static/js/bootstrap.min.js"></script>
   </body>
 </html>

@@ -5,6 +5,7 @@ if(file_exists("config.php")) {
 		echo "Die config.php existiert nicht";
 		exit;
 	}
+include("lib/meldung.php");
 if ($_GET['page']) {
 	if(file_exists("pages/" . $_GET['page'] . ".php")) {
 		$file_path = "pages/" . $_GET['page'] . ".php";

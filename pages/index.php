@@ -1,20 +1,16 @@
 <?php
-// Information about this page
-$active = "home";
-$page_identifier = "home";
-$page_title = "Home";
-$page_has_extra_navbarentry = "false";
+$shownpage_page = array("page_idf" => "index", "title" => "Home");
 
 // PHP Countdown
 $zielzeit = mktime(0, 0, 0, 04, 16, 2014);
 $now = time();
 $diff = $zielzeit - $now;
 $tage = ceil($diff / (60*60*24));
+include("templates/headInclude.php");
+include("templates/navbar.php");
 ?>
-    <?php include("inc/headInclude.php");?>
-    <?php include("inc/navbar.php");?>
     <div class="container">
-    <?php include("inc/meldungen.php"); ?>
+    <?php include("templates/meldungen.php"); ?>
 	        <div class="jumbotron">
         <h1>Willkommen auf ANDIBI.TK!</h1>
         <p>Hier erfährst du etwas über mich und meine Projekte außerhalb der WiiDatabase.</p>
@@ -56,12 +52,12 @@ $tage = ceil($diff / (60*60*24));
     </div><!-- /.container -->
 	</div>
 	<!-- Footer -->
-    <?php include("inc/footer.php"); ?>
+    <?php include("templates/footer.php"); ?>
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+    <script src="static/js/bootstrap.min.js"></script>
   </body>
 </html>

@@ -1,17 +1,10 @@
 <?php
-// Information about this page
-$active = "about";
-$page_identifier = "about";
-$page_title = "Über";
-$page_description = "ANDIBI.TK Über";
-$page_has_extra_navbarentry = "false";
-$page_uses_genericons = "true";
-
-include("inc/headInclude.php");
-include("inc/navbar.php");
+$shownpage_page = array("page_idf" => "about", "title" => "Über", "description" => "ANDIBI.TK Über", "genericons" => "true");
+include("templates/headInclude.php");
+include("templates/navbar.php");
 ?>
     <div class="container">
-	    <?php include("inc/meldungen.php"); ?>
+	    <?php include("templates/meldungen.php"); ?>
         <div class="alert alert-success">
         <p><strong>Immer noch in der alten, langweiligen Ansicht?</strong> <i><a href="about-int.php">Teste die neue, interaktive Ansicht &raquo;</a></i></p>
       </div>
@@ -52,15 +45,13 @@ include("inc/navbar.php");
     </div><!-- /.container -->
 </div>
 	<!-- Footer -->
-<?php
-include("inc/footer.php");
-?>
+<?php include("templates/footer.php"); ?>
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-	<script src="js/holder.js"></script>
+    <script src="static/js/bootstrap.min.js"></script>
+	<script src="static/js/holder.js"></script>
   </body>
 </html>

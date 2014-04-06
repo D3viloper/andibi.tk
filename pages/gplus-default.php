@@ -13,10 +13,10 @@
     <title>Google+ Style</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="static/css/bootstrap.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="css/gplus.css" rel="stylesheet">
+    <link href="static/css/gplus.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -522,8 +522,8 @@
 
         
     <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-	<script src="js/holder.js"></script>
+    <script src="static/js/bootstrap.min.js"></script>
+	<script src="static/js/holder.js"></script>
     <script type='text/javascript'>
         
         $(document).ready(function() {
