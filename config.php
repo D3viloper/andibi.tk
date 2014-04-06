@@ -12,5 +12,5 @@ $config_navbar_content = array(
                                                                                                                                       array("text" => "Gefährliches Copy & Paste", "page_idf" => "cp"),
                                                                                                                                       array("text" => "User-Agent", "page_idf" => "ua")))
                             );
-$config_global_meldung = array("level" => "info", "message" => 'Nach reifer Überlegung habe ich mich dazu entschlossen, die ANDIBI.TK Flat Preview fallen zu lassen und mit dem "nackten" Bootstrap weiter zu machen.');
+$config_global_meldung = array("level" => "info", "message" => '<strong>ANDIBI.TK ist nun <i><a href="https://github.com/Brawl345/andibi.tk" target="_blank">Open-Source</a></i>!</strong>');
 ?>
