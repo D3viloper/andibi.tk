@@ -41,6 +41,10 @@ include("templates/navbar.php");
 	  <a href="http://reddit.com/u/brawl345" target="_blank"><span class="reddit"></span></a>
 	  <a href="http://flickr.com/brawl98" target="_blank"><span class="flickr"></span></a>
 	  <a href="http://www.youtube.com/user/Meleefan100" target="_blank"><span class="youtube"></span></a><br>
+    <div class="page-header">
+        <h1>Open-Source!</h1>
+    </div>
+      <p>ANDIBI.TK ist <strong>Open-Source!</strong> <a href="https://github.com/Brawl345/andibi.tk" targt="_blank">Sieh es dir an!</a></p>
 	  
     </div><!-- /.container -->
 </div>

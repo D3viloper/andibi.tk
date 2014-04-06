@@ -116,7 +116,7 @@ $shownpage_page = array("page_idf" => "about-int", "title" => "Über");
           </a>
           <div class="media-body">
             <h4 class="media-heading">Brawl345</h4>
-            <p><span class="label label-info">3 Projekte</span> <span class="label label-success">Mehr als 20 Commits</span> <span class="label label-primary">2 Followers</span></p>
+            <p><span class="label label-info">4 Projekte</span> <span class="label label-success">Mehr als 20 Commits</span> <span class="label label-primary">2 Followers</span></p>
             <p><a href="#" class="btn btn-xs btn-default"><span class="glyphicon glyphicon-comment"></span> Nachricht senden</a>
             <a href="#" class="btn btn-xs btn-default"><span class="glyphicon glyphicon-heart"></span> Folgen</a></p>
           </div>
