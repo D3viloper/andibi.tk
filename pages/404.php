@@ -19,14 +19,14 @@ include("templates/navbar.php");
                 </div>
                 <div class="error-actions">
                     <a href="index.php" class="btn btn-primary btn-lg"><span class="glyphicon glyphicon-home"></span>
-                        Zur Startseite </a><a href="index.php?page=contact" class="btn btn-default btn-lg"><span class="glyphicon glyphicon-envelope"></span> Den Webmaster kontaktieren </a>
+                        Zur Startseite </a><a href="contact.php" class="btn btn-default btn-lg"><span class="glyphicon glyphicon-envelope"></span> Den Webmaster kontaktieren </a>
                 </div>
             </div>
         </div>
     </div>
 </div>
     <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
-    <script src="static/bootstrap.min.js"></script>
+    <script src="static/js/bootstrap.min.js"></script>
 </body>
 </html>
 
