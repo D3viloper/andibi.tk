@@ -4,8 +4,8 @@
 <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Taxi Müller Homepage">
-	<meta http-equiv="expires" content="86400">
+    <meta name="description" content="404 Error">
+    <meta http-equiv="expires" content="86400">
 
     <link rel="shortcut icon" href="favicon.ico">
 
@@ -23,13 +23,13 @@
     <!-- Custom styles for this template -->
     <link href="css/404.css" rel="stylesheet">
     <link href="css/template.css" rel="stylesheet">
-	
+
   </head>
 <body>
 <?php
 include("inc/navbar.php");
 ?>
-	<div class="container">
+    <div class="container">
     <div class="row">
         <div class="col-md-12">
             <div class="error-template">
