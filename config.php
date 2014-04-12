@@ -12,5 +12,5 @@ $config_navbar_content = array(
                                                                                                                                       array("text" => "Gefährliches Copy & Paste", "page_idf" => "cp"),
                                                                                                                                       array("text" => "User-Agent", "page_idf" => "ua")))
                             );
-$config_global_meldung = array("level" => "info", "message" => '<strong>ANDIBI.TK ist nun <i><a href="https://github.com/Brawl345/andibi.tk" target="_blank">Open-Source</a></i>!</strong>');
+$config_global_meldung = array('activated' => 'true', "level" => "info", "message" => '<strong>ANDIBI.TK ist nun <i><a href="https://github.com/Brawl345/andibi.tk" target="_blank">Open-Source</a></i>!</strong>');
 ?>
