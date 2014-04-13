@@ -99,7 +99,7 @@
 	<!-- Footer -->
 <?php
 $zusatz = '- "Ubuntu" ist eine Marke von Canonical Ltd.';
-include("../templatse/footer.php");
+include("../templates/footer.php");
 ?>
 
     <!-- Bootstrap core JavaScript
