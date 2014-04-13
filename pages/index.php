@@ -1,5 +1,5 @@
 <?php
-$shownpage_page = array("page_idf" => "index", "title" => "Home");
+$shownpage_page = array("page_idf" => "index", "title" => "Home", "description" => "ANDIBI.TK - Die private Website vom Macher der WiiDatabase");
 
 // PHP Countdown
 $zielzeit = mktime(0, 0, 0, 04, 16, 2014);

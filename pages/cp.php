@@ -1,5 +1,5 @@
 <?php
-$shownpage_page = array("page_idf" => "cp", "title" => "Gefährliches Copy & Paste", "isindropdown" => "tools");
+$shownpage_page = array("page_idf" => "cp", "title" => "Gefährliches Copy & Paste", "isindropdown" => "tools", "description" => "ANDIBI.TK - Gefährliches Copy & Paste");
 include("templates/headInclude.php");
 include("templates/navbar.php");
 ?>

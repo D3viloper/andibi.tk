@@ -1,5 +1,5 @@
 <?php
-$shownpage_page = array("page_idf" => "einstellung-von-wiidatabase-img", "title" => "Einstellung von WiiDatabase IMG");
+$shownpage_page = array("page_idf" => "einstellung-von-wiidatabase-img", "title" => "Einstellung von WiiDatabase IMG", "description" => "WiiDatabase IMG Einstellung");
 $page_has_extra_navbarentry = "true";
 $page_has_extra_navbarentry_url = "einstellung-von-wiidatabase-img.php";
 $page_has_extra_navbarentry_title = "Einstellung von WiiDatabase IMG";

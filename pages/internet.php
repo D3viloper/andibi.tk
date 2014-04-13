@@ -1,5 +1,5 @@
 <?php
-$shownpage_page = array("page_idf" => "internet", "title" => "Internet-Special");
+$shownpage_page = array("page_idf" => "internet", "title" => "Internet-Special", "description" => "ANDIBI hat bald wieder Internet");
 include("templates/headInclude.php");
 include("templates/navbar.php");
 ?>

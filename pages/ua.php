@@ -1,6 +1,6 @@
 <?php
 // Information about this page
-$shownpage_page = array("page_idf" => "ua", "title" => "User-Agent", "isindropdown" => "tools");
+$shownpage_page = array("page_idf" => "ua", "title" => "User-Agent", "isindropdown" => "tools", "description" => "ANDIBI.TK - Dein User-Agent");
 include("templates/headInclude.php");
 include("templates/navbar.php");
 ?>

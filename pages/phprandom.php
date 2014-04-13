@@ -1,7 +1,7 @@
 <?php
 // Information about this page
 //$active = "";
-$shownpage_page = array("page_idf" => "phprandom", "title" => "Random PHP-Test");
+$shownpage_page = array("page_idf" => "phprandom", "title" => "Random PHP-Test", "description" => "ANDIBI.TK - Random PHP-Test mit shuffle");
 $page_has_extra_navbarentry = "true";
 $page_has_extra_navbarentry_url = "phprandom.php";
 $page_has_extra_navbarentry_title = "Random PHP-Test";

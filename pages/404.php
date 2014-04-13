@@ -1,7 +1,7 @@
 <?php
 // Information about this page
 //$active = "";
-$shownpage_page = array("page_idf" => "404", "title" => "404 - Diese Seite wurde nicht gefunden");
+$shownpage_page = array("page_idf" => "404", "title" => "404 - Diese Seite wurde nicht gefunden", "description" => "ANDIBI.TK 404");
 
 include("templates/headInclude.php");
 include("templates/navbar.php");
