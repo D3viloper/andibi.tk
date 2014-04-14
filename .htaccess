@@ -8,6 +8,6 @@ RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME} !-f  
 RewriteRule ^(.*).php$ index.php?page=$1 [L]
 
-#ErrorDocument 404 /ANDIBI/404.php
+ErrorDocument 404 /ANDIBI/404.php
 
 #Mit Dank an Howlin von StackOverflow.com für die große Hilfe! https://stackoverflow.com/questions/23048391/rewrite-pages-from-a-subdirectory/23048806?noredirect=1#23048806
