@@ -52,4 +52,4 @@ include("templates/navbar.php");
 <?php
 include("templates/footer.php");
 include("templates/htmlEnd.php");
-?>s
+?>
