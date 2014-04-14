@@ -49,13 +49,7 @@ include("templates/navbar.php");
     </div><!-- /.container -->
 </div>
 	<!-- Footer -->
-<?php include("templates/footer.php"); ?>
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
-    <script src="static/js/bootstrap.min.js"></script>
-	<script src="static/js/holder.js"></script>
-  </body>
-</html>
+<?php
+include("templates/footer.php");
+include("templates/htmlEnd.php");
+?>s

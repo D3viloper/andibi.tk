@@ -127,21 +127,11 @@ include("templates/navbar.php");
       <hr class="featurette-divider">
 
       <!-- /END THE FEATURETTES -->
+    
 
 	<!-- Footer -->
 <?php
 $zusatz = '- <a href="#">Nach oben</a>';
 include("templates/footer.php");
+include("templates/htmlEnd.php");
 ?>
-
-    </div><!-- /.container -->
-
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
-    <script src="static/js/bootstrap.min.js"></script>
-    <script src="static/js/holder.js"></script>
-  </body>
-</html>
