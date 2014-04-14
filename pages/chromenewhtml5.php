@@ -1,5 +1,5 @@
 <?php
-$shownpage_page = array("page_idf" => "chromenewhtml5", "title" => "Chrome loves HTML5", "isindropdown" => "tools", "description" => "ANDIBI.TK - Chrome loves HTML5");
+$shownpage_page = array("page_idf" => "chromenewhtml5", "title" => "Chrome &lt;3 HTML5", "isindropdown" => "tools", "description" => "ANDIBI.TK - Chrome &lt;3 HTML5");
 include("templates/headInclude.php");
 include("templates/navbar.php");
 ?>

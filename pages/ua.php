@@ -10,13 +10,16 @@ include("templates/navbar.php");
 		<h1>Dein User-Agent lautet</h1>
 		</div>
   <div class="row">
-        <!-- /.col-sm-4 -->
         <div class="well">
-	<script type="text/javascript">
-		document.write(navigator.userAgent);
-	</script>
-</div> 
-          
+	<?php echo $_SERVER['HTTP_USER_AGENT']; ?>
+	</div>
+      </div>
+	  <div class="page-header">
+		<h1>Deine IP lautet:</h1>
+          	</div>
+          <div class="well">
+          <?php echo $_SERVER["REMOTE_ADDR"]; ?>
+	</div>
           <div class="panel panel-info">
             <div class="panel-heading">
               <h3 align="center"  class="panel-title">Was ist ein User-Agent?</h3>
@@ -27,11 +30,9 @@ include("templates/navbar.php");
             </div>
           </div>
               </div>
-              </div>
 
 
     </div><!-- /.container -->
-	</div>
 	<!-- Footer -->
 <?php
 include("templates/footer.php");
