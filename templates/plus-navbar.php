@@ -39,7 +39,6 @@
             <li <?php if ($active == "home") {echo 'class="active"';} ?>><a href="index.php">Home</a></li>
             <li <?php if ($active == "about") {echo 'class="active"';} ?>><a href="about.php">Über</a></li>
             <li <?php if ($active == "contact") {echo 'class="active"';} ?>><a href="contact.php">Kontakt</a></li>
-            <li <?php if ($active == "internet") {echo 'class="active"';} ?>><a href="internet.php">Internet-Special  <span class="label label-danger">NEU!</span></a></li>
             <li class="dropdown<?php if ($isindropdown == "true") {echo " active";} ?>">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Tools <b class="caret"></b></a>
               <ul class="dropdown-menu">

@@ -53,7 +53,7 @@ $shownpage_page = array("page_idf" => "about-int", "title" => "Über");
       <p>Ich besitze seit 2011 <a href="http://wiidatabase.de/">WiiDatabase.de</a>. Dort schreibe ich über Nintendo & Homebrew.</p>
       <p>Ich teste immer mal wieder meine Fähigkeiten aus, auch auf dieser Website. Vielleicht kommt später mehr Inhalt. Bis dahin!</p>
      <div class="clearfix"></div><hr>
-      <p><strong>Willkommen bei SUPER-GEHEIMEN</strong> ANDIBI.TK Preview! Lese, <a href="#newModal" data-toggle="modal">was es neues gibt</a>!<hr>
+      <p><strong>Willkommen bei einer</strong> ANDIBI.TK Preview! Lese, <a href="#newModal" data-toggle="modal">was es neues gibt</a>!<hr>
       <form>
       <div class="input-group">
       <div class="input-group-btn">
