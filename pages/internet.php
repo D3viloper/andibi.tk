@@ -1,5 +1,8 @@
 <?php
 $shownpage_page = array("page_idf" => "internet", "title" => "Internet-Special", "description" => "ANDIBI hat bald wieder Internet");
+$page_has_extra_navbarentry = "true";
+$page_has_extra_navbarentry_url = "internet.php";
+$page_has_extra_navbarentry_title = "Internet-Special";
 include("templates/headInclude.php");
 include("templates/navbar.php");
 ?>
@@ -8,28 +11,14 @@ include("templates/navbar.php");
         <div class="col-md-12">
             <div class="error-template">
                 <h1>
-                    ANDIBI goes online!</h1>
+                    ANDIBI is online!</h1>
                 <div class="error-details">
-                  <h1>Es ist so weit! Endlich wieder reguläres Internet nach einem Jahr! <b>HEUTE</b>*!</h1>
+                  <h1>Danke für's Lesen! Ich bin endlich wieder online!</h1>
                 </div>
                 <div class="error-actions">
-                    <iframe src="https://freesecure.timeanddate.com/countdown/i432vs5y/n1014/cf12/cm0/cu5/ct0/cs0/ca0/co1/cr0/ss0/cac428bca/cpcf00/pct/tcfff/fs175/szw576/szh243/tatSchaltung%20des%20Internets%20in/tac000/tptInternet%20ist%20geschalten%20seit/tpc000/iso2014-04-16T12:00:00" frameborder="0" width="749" height="150"></iframe>
-                    <p>Gegen 17:00 Uhr</p>
-                </div><br><br>
-                <h1>Updates immer am Wochenende!</h1>
-                <h2>16. April 2014</h2>
-                <p>Der Termin für den 16.04.2014 hat sich nicht geändert!</p>
-                <br>
-                <h2>07. April 2014</h2>
-                <p>Das Tablet (und natürlich der ganze Rest) ist angekommen!</p>
-                <br>
-                <h2>05. April 2014</h2>
-                <p>1&1 hat die Pakete versandt!</p>
-                <br>
-                <h2>28. März 2014</h2>
-                <p>1&1 gibt voraussichtlichen Schaltungstermin am 16.04.2014!</p>
-                <br><br><br><br>
-                <p>* voraussichtlich</p>
+                    <a href="index.php" class="btn btn-primary btn-lg"><span class="glyphicon glyphicon-home"></span>
+                        Zur Startseite </a>
+                </div>
             </div>
         </div>
     </div>

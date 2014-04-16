@@ -1,11 +1,6 @@
 <?php
 $shownpage_page = array("page_idf" => "index", "title" => "Home", "description" => "ANDIBI.TK - Die private Website vom Macher der WiiDatabase");
 
-// PHP Countdown
-$zielzeit = mktime(0, 0, 0, 04, 16, 2014);
-$now = time();
-$diff = $zielzeit - $now;
-$tage = ceil($diff / (60*60*24));
 include("templates/headInclude.php");
 include("templates/navbar.php");
 ?>
@@ -14,16 +9,8 @@ include("templates/navbar.php");
 	        <div class="jumbotron">
         <h1>Willkommen auf ANDIBI.TK!</h1>
         <p>Hier erfährst du etwas über mich und meine Projekte außerhalb der WiiDatabase.</p>
-        <p><?php if ($tage < '1') {
-        echo 'Heute ist es soweit!';
-            }
-        else {
-            echo "In ",$tage,"";
-            if ($tage == '1') { 
-                echo ' Tag habe ich endlich wieder regulär Internet!'; 
-            }
-            else { echo ' Tagen habe ich endlich wieder regulär Internet!'; }} ?></p>
-          <a class="btn btn-lg btn-primary" href="internet.php" role="button">Sieh dir den Countdown an und lese den Internet-Blog &raquo;</a>
+        <p>Ich habe nun wieder Internet!</p>
+          <a class="btn btn-lg btn-success" href="https://github.com/Brawl345/andibi.tk/commits/master" role="button">Letzte Commits ansehen &raquo;</a>
       </div>
 
 
