@@ -9,7 +9,6 @@ include("templates/navbar.php");
 	        <div class="jumbotron">
         <h1>Willkommen auf ANDIBI.TK!</h1>
         <p>Hier erfährst du etwas über mich und meine Projekte außerhalb der WiiDatabase.</p>
-        <p>Ich habe nun wieder Internet!</p>
           <a class="btn btn-lg btn-success" href="https://github.com/Brawl345/andibi.tk/commits/master" role="button">Letzte Commits ansehen &raquo;</a>
       </div>
 
