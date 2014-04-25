@@ -1,6 +1,7 @@
 <?php
 // Information about this page
 $shownpage_page = array("page_idf" => "about-int", "title" => "Über");
+$active = "about"
 ?>
 <!DOCTYPE html>
 <html>
