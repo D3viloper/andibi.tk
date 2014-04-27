@@ -19,7 +19,7 @@ include("templates/navbar.php");
                 </div>
                 <div class="error-actions">
                     <a href="index.php" class="btn btn-primary btn-lg"><span class="glyphicon glyphicon-home"></span>
-                        Zur Startseite </a><a href="contact.php" class="btn btn-default btn-lg"><span class="glyphicon glyphicon-envelope"></span> Den Webmaster kontaktieren </a>
+                        Zur Startseite </a><a href="https://github.com/Brawl345/andibi.tk/issues?state=open" class="btn btn-default btn-lg"><span class="glyphicon glyphicon-bullhorn"></span> Fehler melden </a>
                 </div>
             </div>
         </div>
