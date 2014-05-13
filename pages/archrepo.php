@@ -29,6 +29,7 @@ include("templates/navbar.php");
     <div class="page-header">
         <h1>Welche Pakete sind enthalten?</h1>
     </div>
+	<a name="packages"></a>
         <p>Hier ist eine Liste:</p>
         <?php include("archrepo/packagelist.php"); ?>
 
