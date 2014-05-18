@@ -13,7 +13,7 @@ include("templates/navbar.php");
 	   <div class="col-sm">
           <div class="panel panel-info">
             <div class="panel-heading">
-              <h3 align="center" class="panel-title">Kontakt</h3>
+              <h3 class="panel-title text-center">Kontakt</h3>
             </div>
             <div class="panel-body">
               Du kannst mich ganz leicht mit dem Kontaktformular auf <a href="http://wiidatabase.de/kontakt">wiidatabase.de/kontakt</a> erreichen!

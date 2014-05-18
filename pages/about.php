@@ -44,7 +44,7 @@ include("templates/navbar.php");
     <div class="page-header">
         <h1>Open-Source!</h1>
     </div>
-      <p>ANDIBI.TK ist <strong>Open-Source!</strong> <a href="https://github.com/Brawl345/andibi.tk" targt="_blank">Sieh es dir an!</a></p>
+      <p>ANDIBI.TK ist <strong>Open-Source!</strong> <a href="https://github.com/Brawl345/andibi.tk" target="_blank">Sieh es dir an!</a></p>
 	  
     </div><!-- /.container -->
 </div>

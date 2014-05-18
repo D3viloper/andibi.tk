@@ -8,7 +8,7 @@ include("templates/navbar.php");
 	  <div class="page-header">
 		<h1>ANDIBI.TK Arch Linux Repo</h1>
 	  </div>
-        <div class="pull-right"><img src="uburemix/archlogo.png" height="187" width="187"></div>
+        <div class="pull-right"><img src="uburemix/archlogo.png" height="187" width="187" alt="ArchLinux Logo"></div>
         <p>ANDIBI.TK hat eine eigene Arch-Repo!</p>
         <p>Ich habe diese erstellt, da ich das Kompilieren aus dem AUR hasse (dauert ewig) und ich anderen das ersparen möchte. Hier findest du eine Auswahl an interessanten Paketen. Auch ist einige Software in der [andi] Repo aktueller. Die Repo ist momentan noch im Aufbau.</p>
         
@@ -29,7 +29,7 @@ include("templates/navbar.php");
     <div class="page-header">
         <h1>Welche Pakete sind enthalten?</h1>
     </div>
-	<a name="packages"></a>
+	<a id="packages"></a>
         <p>Hier ist eine Liste:</p>
         <?php include("archrepo/packagelist.php"); ?>
 
