@@ -5,10 +5,9 @@ if($_GET['extension'] == "")
 }
 else
 {
-  $extension = $_GET['extension'];
+  $extension = htmlspecialchars($_GET['extension']);
 }
 // Information about this page
-//$active = "";
 $shownpage_page = array("page_idf" => "chrome-extension", "title" => $extension . "-Erweiterung installieren", "description" => "ANDIBI.TK - Eine Chrome-Erweiterung installieren");
 $page_has_extra_navbarentry = "true";
 $page_has_extra_navbarentry_url = "chrome-extension.php";
