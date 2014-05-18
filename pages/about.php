@@ -16,7 +16,7 @@ include("templates/navbar.php");
 	   <div class="col-sm">
           <div class="panel panel-default">
             <div class="panel-heading">
-              <h3 align="center" class="panel-title">Steckbrief</h3>
+              <h3 class="panel-title text-center">Steckbrief</h3>
             </div>
             <div class="panel-body">
               <p><strong>Nickname:</strong> iCON</p>
