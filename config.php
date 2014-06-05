@@ -12,5 +12,5 @@ $config_navbar_content = array(
                                                                                                                                       array("text" => "Gefährliches Copy & Paste", "page_idf" => "cp"),
                                                                                                                                       array("text" => "User-Agent", "page_idf" => "ua")))
                             );
-$config_global_meldung = array('activated' => 'true', "level" => "info", "message" => '<strong>Willkommen</strong> auf dem <strong>NEUEN</strong> Server!');
+$config_global_meldung = array("activated" => "false", "level" => "info", "message" => '<strong>Willkommen</strong> auf dem <strong>NEUEN</strong> Server!');
 ?>
