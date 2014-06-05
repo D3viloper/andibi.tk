@@ -1,7 +1,7 @@
 <div class="navbar navbar-fixed-top header">
   <div class="col-md-12">
     <div class="navbar-header">
-      <a href="#" class="navbar-brand">ANDIBI.TK</a>
+          <a class="navbar-brand" href="index.php"><?php echo $config_page['maintitle']; ?></a>
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse1">
       <i class="glyphicon glyphicon-th-list"></i>
       </button>
@@ -13,10 +13,8 @@
         <li><a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="glyphicon glyphicon-bell"></i></a>
       <ul class="dropdown-menu">
         <li><a href="#newModal" data-toggle="modal"><span class="label label-info pull-right">1</span>Neues</a></li>
-        <!-- <li><a href="#"><span class="label label-info pull-right">1</span>Link</a></li> -->
       </ul>
         </li>
-        <!--<li><a href="#" id="btnToggle"><i class="glyphicon glyphicon-th"></i></a></li>-->
         <li><a href="#"><i class="glyphicon glyphicon-user"></i></a></li>
       </ul>
       </div>
@@ -33,24 +31,26 @@
         <span class="icon-bar"></span>
         </button>
       </div>
-
-    <div class="collapse navbar-collapse" id="navbar-collapse2">
-<ul class="nav navbar-nav">
-            <li <?php if ($active == "home") {echo 'class="active"';} ?>><a href="index.php">Home</a></li>
-            <li <?php if ($active == "about") {echo 'class="active"';} ?>><a href="about.php">Über</a></li>
-            <li <?php if ($active == "contact") {echo 'class="active"';} ?>><a href="contact.php">Kontakt</a></li>
-            <li class="dropdown<?php if ($isindropdown == "true") {echo " active";} ?>">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Tools <b class="caret"></b></a>
+ <div class="collapse navbar-collapse" id="navbar-collapse2">
+          <ul class="nav navbar-nav">
+            <?php foreach ($config_navbar_content as $value) :?>
+            <?php if($value['dropdown'] == "true") : ?>
+            <li class="dropdown <?php if ($shownpage_page['isindropdown'] == $value['dropdown_idf']) {echo "active";}?>">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown"><?php echo $value['text'];?> <b class="caret"></b></a>
               <ul class="dropdown-menu">
-                <li <?php if ($active == "chromenewhtml5") {echo 'class="active"';} ?>><a href="chromenewhtml5.php">Chrome &lt;3 HTML5</a></li>
-                <li <?php if ($active == "cp") {echo 'class="active"';} ?>><a href="cp.php">Gefährliches Copy & Paste</a></li>
-                <li <?php if ($active == "useragent") {echo 'class="active"';} ?>><a href="ua.php">User-Agent</a></li>
+                <?php foreach ($value['elements'] as $element) :?>
+                <li <?php if ($shownpage_page['page_idf'] == $element['page_idf']) {echo 'class="active"';}?>><a href="<?php echo $element['page_idf'] . ".php";?>"><?php echo $element['text']; ?></a>
+                <?php endforeach; ?>
               </ul>
             </li>
+            <?php else: ?>
+            <li <?php if ($shownpage_page['page_idf'] == $value['page_idf']) {echo 'class="active"';}?>><a href="<?php echo $value['page_idf'] . ".php"; ?>"><?php echo $value['text'];?></a></li>
+            <?php endif; ?>
+            <?php endforeach; ?>
             <?php if ($page_has_extra_navbarentry == "true") :?>
             <li class="active"><a href="<?php echo $page_has_extra_navbarentry_url; ?>"><?php echo $page_has_extra_navbarentry_title; ?></a></li>
             <?php endif; ?>
           </ul>
-    </div>
+        </div><!--/.nav-collapse -->
   </div>
 </div>
