@@ -33,6 +33,7 @@ include("templates/navbar.php");
         <h1>Verschlüsselter Kontakt</h1>
       </div>
         <p>Möchtest du lieber verschlüsselten Kontakt per PGP, so kannst du meinen <a href="dl/ANDIBI-GPG.asc">öffentlichen Schlüssel herunterladen</a> (oder nutze einen <a href="http://keyserver.ubuntu.com/pks/lookup?op=vindex&fingerprint=on&search=0x7B171F44A4FA956F" target="_blank">Key-Server</a>) und importieren. Ich gehe davon aus, dass du dich damit auskennst. Ich benötige natürlich noch deinen öffentlichen Schlüssel.</p>
+        <p>Es stehen auch fast immer .asc Dateien bereit, die eine Signatur enthalten. Einfach an den Downloadlink ".asc" anhängen!</p>
 
 
 
