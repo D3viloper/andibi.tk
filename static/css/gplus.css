@@ -8,7 +8,7 @@
 */
 
 /* to optimize performance load fonts from LINK in HEAD */
-@import url(http://fonts.googleapis.com/css?family=Roboto:400);
+@import url(//fonts.googleapis.com/css?family=Roboto:400);
 
 body {
   background-color:#e0e0e0;
