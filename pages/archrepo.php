@@ -26,6 +26,7 @@ include("templates/navbar.php");
           <p>Lade dann mit <code>sudo pacman -Sy</code> die Repos neu!</p>
           <p><strong>Die Repo und alle Pakete sind von mir seit dem 28. Juni 2014 signiert.</strong> Pacman wird dich fragen, ob du den Key importieren möchtest. Wähle "J".</p>
           
+	<a id="troubleshooting"></a>
     <div class="page-header">
         <h1>Problembehebung</h1>
     </div>
@@ -37,6 +38,9 @@ include("templates/navbar.php");
     
     <p><i><strong>Es klappt immer noch nicht!</strong></i><br>
     Führe folgenden Befehl aus: <code>sudo pacman-key -r A4FA956F && sudo pacman-key --lsign A4FA956F</code> - dies importiert meinen Key manuell und signiert ihn lokal.</p>
+    
+    <p><i><strong>Ich kann keine Pakete installieren, da ein GPG-Fehler auftritt!</strong></i><br>
+    Dieser Fehler sollte nicht auftreten. Es kann sein, dass du früher mal ein Paket aus der Repo installiert hast und dieses noch in deinem Cache hängt. Führe <code>sudo pacman -Sc</code> aus, um den Pacman-Cache zu leeren. Versuche auch, <code>sudo pacman -Syy</code> auszuführen und neuzustarten.</p>
         
     <div class="page-header">
         <h1>Welche Pakete sind enthalten?</h1>
