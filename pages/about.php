@@ -7,8 +7,7 @@ include("templates/plus-meldungen.php");
     <!--main-->
     <div class="container" id="main">
     <div class="row">
-      <?php include("templates/meldungen.php"); ?>
-    <div class="col-md-6 col-sm-6">
+        <div class="col-md-6 col-sm-6">
     <div class="panel panel-default">
     <div class="panel-heading">
       <h4><img src="img/allgoogle/buddies/andibi.jpg" class="img-circle">  Über ANDIBI.TK</h4>
@@ -35,7 +34,7 @@ include("templates/plus-meldungen.php");
       <p><strong>Nickname:</strong> iCON</p>
       <p><strong>Geboren:</strong> '98</p>
       <p><strong>Interessen:</strong> PC, Spielekonsolen, Linux, Google</p>
-      <p><strong>Fähigkeiten:</strong> HTML, etwas CSS</p>
+      <p><strong>Fähigkeiten:</strong> HTML, etwas CSS, etwas PHP</p>
       <p><strong>OS & Browser:</strong> Ubuntu und Google Chrome</p>
     </div>
 
@@ -115,16 +114,5 @@ include("templates/plus-meldungen.php");
      </div><!--/articles-->
    </div>
     <!-- Footer -->
-<?php include("templates/plus-footer.php"); ?>
-        </div><!--/main-->
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="static/js/jquery-1.10.2.min.js"></script>
-    <script src="static/js/bootstrap.min.js"></script>
-    <!-- <script src="static/js/togglelayout.js"></script> -->
-    <script src="static/js/holder.js"></script>
-
-    </body>
-</html>
+<?php include("templates/plus-footer.php");
+      include("templates/htmlEnd.php");?>

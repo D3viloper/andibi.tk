@@ -1,26 +1,3 @@
-<!-- <div class="navbar navbar-fixed-top header">
-  <div class="col-md-12">
-    <div class="navbar-header">
-          <a class="navbar-brand" href="index.php">lel</a>
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse1">
-      <i class="glyphicon glyphicon-th-list"></i>
-      </button>
-    </div>
-
-    <div class="collapse navbar-collapse" id="navbar-collapse1">
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="https://google.com/+AndreasBielawski" target="_ext">+ANDIBI</a></li>
-        <li><a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="glyphicon glyphicon-bell"></i></a>
-      <ul class="dropdown-menu">
-        <li><a href="#newModal" data-toggle="modal"><span class="label label-info pull-right">1</span>Neues</a></li>
-      </ul>
-        </li>
-        <li><a href="#"><i class="glyphicon glyphicon-user"></i></a></li>
-      </ul>
-      </div>
-      </div>
-      </div> -->
-
     <div class="navbar navbar-default" id="subnav">
     <div class="col-md-12">
       <div class="navbar-header">
@@ -54,7 +31,7 @@
           </ul>
       <ul class="nav navbar-right navbar-nav">
         <li><a href="https://google.com/+AndreasBielawski" target="_ext">+ANDIBI</a></li>
-        <li><a href="#newModal" data-toggle="modal"><i class="glyphicon glyphicon-bell"></i><span class="label label-danger pull-right">1</span></a></li>
+        <li><a href="#newModal" data-toggle="modal"><i class="glyphicon glyphicon-bell"></i><?php if($config_global_meldung['activated'] == "true"): echo '<span class="label label-danger pull-right">'; echo ''. $config_global_meldung['clock_count'] .'</span>'; endif; ?></a></li>
         <li><a href="#"><i class="glyphicon glyphicon-user"></i></a></li>
       </ul>
         </div><!--/.nav-collapse -->

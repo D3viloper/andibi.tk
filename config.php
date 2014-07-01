@@ -12,5 +12,5 @@ $config_navbar_content = array(
                                                                                                                                       array("text" => "Gefährliches Copy & Paste", "page_idf" => "cp"),
                                                                                                                                       array("text" => "User-Agent", "page_idf" => "ua")))
                             );
-$config_global_meldung = array("activated" => "true", "level" => "info", "message" => '<strong>Testmessage</strong>!');
+$config_global_meldung = array("activated" => "true", "clock_count" => "1", "level" => "info", "message" => '<strong>Willkommen bei der ANDIBI.TK Preview!</strong>');
 ?>

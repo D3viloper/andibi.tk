@@ -1,5 +1,5 @@
 <?php
-function modal($title, $content) {
+function modal($title) {
     $string = '<div id="newModal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
@@ -8,8 +8,11 @@ function modal($title, $content) {
                 <h2 class="text-center">' . $title . '</h2>
             </div>
             <div class="modal-body">
-                <div class="col-md-12">
-                    ' . $content . '
+                <div class="col-md-12">';
+    return $string;
+    }
+function modal2($content) {
+    $string = '' . $content . '
                 </div>
             </div>
             <div class="modal-footer">
