@@ -21,7 +21,7 @@ include("templates/navbar.php");
           <p>Öffne die <code>/etc/pacman.conf</code> in einem Editor mit Root-Rechten und füge folgendes ganz unten hinzu:</p>
           <div class="well">
             <p>[andi]<br>
-            Server = http://andibi.tk/archrepo
+            Server = http://andibi.tk/archrepo</p>
           </div>
           <p>Lade dann mit <code>sudo pacman -Sy</code> die Repos neu!</p>
           <p><strong>Die Repo und alle Pakete sind von mir seit dem 28. Juni 2014 signiert.</strong> Pacman wird dich fragen, ob du den Key importieren möchtest. Wähle "J".</p>
