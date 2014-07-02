@@ -2,7 +2,6 @@
 $shownpage_page = array("page_idf" => "index", "title" => "Home", "description" => "ANDIBI.TK - Die private Website vom Macher der WiiDatabase");
 include("templates/plus-headInclude.php");
 include("templates/plus-navbar.php");
-include("templates/plus-meldungen.php");
 ?>
     <!--main-->
     <div class="container" id="main">
@@ -24,7 +23,7 @@ include("templates/plus-meldungen.php");
     <div class="panel-body">
     <p>Die WiiDatabase wurde am 04. August 2011 gegründet. Hier gibt es aktuelle News & Downloads rund um Wii, Wii U, 3DS und Homebrew.</p>
     <div class="list-group">
-                <a href="http://wiidatabase.de" target="_blank" class="list-group-item active">Besuche WiiDatabase.de</a>
+                <p><a href="http://wiidatabase.de" target="_blank" class="list-group-item active">Besuche WiiDatabase.de</a></p>
               </div>
     </div>
     </div>
@@ -38,7 +37,7 @@ include("templates/plus-meldungen.php");
     <div class="panel-body">
     <p>Ein Wiki über Wii, Wii U, 3DS, Homebrew und mehr! Beta-Phase</p>
     <div class="list-group">
-                <a href="http://wiki.wiidatabase.de/wiki/Hauptseite" target="_blank" class="list-group-item active">Besuche das WiiDatabase Wiki (beta)</a>
+                <p><a href="http://wiki.wiidatabase.de/wiki/Hauptseite" target="_blank" class="list-group-item active">Besuche das WiiDatabase Wiki (beta)</a></p>
               </div>
     </div>
     </div>
@@ -56,7 +55,7 @@ include("templates/plus-meldungen.php");
   Seit mehreren Jahren treffen sich gleichgesinnte Technikfans im Teenageralter, um sich über das Neuste auszutauschen und Spass zu haben.
   Wir bieten dir ein Forum, einen Blog und einen Minecraftserver. Wenn du dich also angesprochen fühlst, worauf wartest du noch?</p>
     <div class="list-group">
-                <a href="http://pegelf.de" target="_blank" class="list-group-item active">Besuche Pegelf.de</a>
+                <p><a href="http://pegelf.de" target="_blank" class="list-group-item active">Besuche Pegelf.de</a></p>
               </div>
     </div>
     </div>

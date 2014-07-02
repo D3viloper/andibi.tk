@@ -30,10 +30,11 @@
             <?php endif; ?>
           </ul>
       <ul class="nav navbar-right navbar-nav">
-        <li><a href="https://google.com/+AndreasBielawski" target="_ext">+ANDIBI</a></li>
-        <li><a href="#newModal" data-toggle="modal"><i class="glyphicon glyphicon-bell"></i><?php if($config_global_meldung['activated'] == "true"): echo '<span class="label label-danger pull-right">'; echo ''. $config_global_meldung['clock_count'] .'</span>'; endif; ?></a></li>
+        <li><a href="https://google.com/+AndreasBielawski" target="_blank">+ANDIBI</a></li>
+        <li><a href="#newModal" data-toggle="modal"><i class="glyphicon glyphicon-bell"></i><?php if($config_global_meldung['activated'] == "true"): echo '<span class="label label-danger pull-right">'; echo ''. $config_global_meldung['bell_count'] .'</span>'; endif; ?></a></li>
         <li><a href="#"><i class="glyphicon glyphicon-user"></i></a></li>
       </ul>
         </div><!--/.nav-collapse -->
   </div>
 </div>
+<?php include("templates/plus-meldungen.php"); ?>

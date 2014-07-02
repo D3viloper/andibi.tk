@@ -2,7 +2,6 @@
 $shownpage_page = array("page_idf" => "contact", "title" => "Kontakt", "description" => "ANDIBI.TK Kontakt");
 include("templates/plus-headInclude.php");
 include("templates/plus-navbar.php");
-include("templates/plus-meldungen.php");
 ?>
     <!--main-->
     <div class="container" id="main">
@@ -36,7 +35,7 @@ include("templates/plus-meldungen.php");
               <h4>Verschlüsselter Kontakt</h4>
         </div>
     <div class="panel-body">
-        <p>Möchtest du lieber verschlüsselten Kontakt per PGP, so kannst du meinen <a href="dl/ANDIBI-GPG.asc">öffentlichen Schlüssel herunterladen</a> (oder nutze einen <a href="http://keyserver.ubuntu.com/pks/lookup?op=vindex&fingerprint=on&search=0x7B171F44A4FA956F" target="_blank">Key-Server</a>) und importieren. Ich gehe davon aus, dass du dich damit auskennst. Ich benötige natürlich noch deinen öffentlichen Schlüssel.</p>
+        <p>Möchtest du lieber verschlüsselten Kontakt per PGP, so kannst du meinen <a href="dl/ANDIBI-GPG.asc">öffentlichen Schlüssel herunterladen</a> (oder nutze einen <a href="http://keyserver.ubuntu.com/pks/lookup?op=vindex&amp;fingerprint=on&amp;search=0x7B171F44A4FA956F" target="_blank">Key-Server</a>) und importieren. Ich gehe davon aus, dass du dich damit auskennst. Ich benötige natürlich noch deinen öffentlichen Schlüssel.</p>
         <p>Es stehen auch fast immer .asc Dateien bereit, die eine Signatur enthalten. Einfach an den Downloadlink ".asc" anhängen!</p>
     </div>
     </div>

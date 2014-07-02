@@ -2,7 +2,6 @@
 $shownpage_page = array("page_idf" => "archrepo", "title" => "Arch Linux Repo", "description" => "[andi] Arch Repo");
 include("templates/plus-headInclude.php");
 include("templates/plus-navbar.php");
-include("templates/plus-meldungen.php");
 ?>
     <!--main-->
     <div class="container" id="main">
