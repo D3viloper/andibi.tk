@@ -1,15 +1,15 @@
-  	<div id="wrap">
-    <div class="navbar navbar-inverse navbar-fixed-top">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
+    <div class="navbar navbar-default navbar-fixed-top">
+    <div class="col-md-12">
+      <div class="navbar-header">
           <a class="navbar-brand" href="index.php"><?php echo $config_page['maintitle']; ?></a>
-        </div>
-        <div class="collapse navbar-collapse">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse2">
+        <span class="sr-only">Navigation umschalten</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        </button>
+      </div>
+ <div class="collapse navbar-collapse" id="navbar-collapse2">
           <ul class="nav navbar-nav">
             <?php foreach ($config_navbar_content as $value) :?>
             <?php if($value['dropdown'] == "true") : ?>
@@ -29,6 +29,12 @@
             <li class="active"><a href="<?php echo $page_has_extra_navbarentry_url; ?>"><?php echo $page_has_extra_navbarentry_title; ?></a></li>
             <?php endif; ?>
           </ul>
+      <ul class="nav navbar-right navbar-nav">
+        <li><a href="https://google.com/+AndreasBielawski" target="_blank">+ANDIBI</a></li>
+        <li><a href="#newModal" data-toggle="modal"><i class="glyphicon glyphicon-bell"></i><?php if($config_global_meldung['activated'] == "true"): echo '<span class="label label-danger pull-right">'; echo ''. $config_global_meldung['bell_count'] .'</span>'; endif; ?></a></li>
+        <!-- //TODO: <li><a href="#"><i class="glyphicon glyphicon-user"></i></a></li> -->
+      </ul>
         </div><!--/.nav-collapse -->
-      </div>
-    </div>
+  </div>
+</div>
+<?php include("templates/meldungen.php"); ?>

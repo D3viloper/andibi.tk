@@ -10,10 +10,34 @@
 /* to optimize performance load fonts from LINK in HEAD */
 @import url(//fonts.googleapis.com/css?family=Roboto:400);
 
+html { height: 100%; }
 body {
+height: 100%;
   background-color:#e0e0e0;
   -webkit-font-smoothing: antialiased;
   font: normal 14px Roboto,arial,sans-serif;
+}
+
+/* Wrapper for page content to push down footer */
+#wrap {
+  min-height: 100%;
+  height: auto;
+  /* Negative indent footer by its height */
+  margin: 0 auto -60px;
+  /* Pad bottom by footer height */
+  padding: 0 0 60px;
+}
+
+#wrap > .container {
+  padding: 60px 15px 0;
+}
+.container .credit {
+  margin: 20px 0;
+}
+
+#footer > .container {
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .navbar-default {background-color:#f4f4f4;border-width:0;z-index:5;}
@@ -35,7 +59,7 @@ body {
 .btn-success,.label-success,.progress-bar-success{background-color:#65b045;}
 .btn-info,.label-info,.progress-bar-info{background-color:#a0c3ff,border-color:#a0c3ff;}
 .btn-danger,.label-danger,.progress-bar-danger{background-color:#dd4b39;}
-.btn-warning,.label-warning,.progress-bar-warning{background-color:#f4b400;color:#444444;}
+.label-warning,.progress-bar-warning{background-color:#f4b400;color:#444444;}
 
 hr {border-color:#ececec;}
 
@@ -46,7 +70,7 @@ textarea {
   resize: none;
   outline: 0;
 }
-.panel .btn i,.btn span{
+.panel .btn i{
   color:#666666;
 }
 .panel .panel-heading {

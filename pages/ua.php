@@ -1,7 +1,7 @@
 <?php
 $shownpage_page = array("page_idf" => "ua", "title" => "User-Agent", "isindropdown" => "tools", "description" => "ANDIBI.TK - Dein User-Agent");
-include("templates/plus-headInclude.php");
-include("templates/plus-navbar.php");
+include("templates/headInclude.php");
+include("templates/navbar.php");
 ?>
     <!--main-->
     <div class="container" id="main">
@@ -40,5 +40,5 @@ include("templates/plus-navbar.php");
 
 
     <!-- Footer -->
-<?php include("templates/plus-footer.php");
+<?php include("templates/footer.php");
       include("templates/htmlEnd.php");?>

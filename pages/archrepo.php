@@ -1,7 +1,7 @@
 <?php
 $shownpage_page = array("page_idf" => "archrepo", "title" => "Arch Linux Repo", "description" => "[andi] Arch Repo");
-include("templates/plus-headInclude.php");
-include("templates/plus-navbar.php");
+include("templates/headInclude.php");
+include("templates/navbar.php");
 ?>
     <!--main-->
     <div class="container" id="main">
@@ -12,7 +12,7 @@ include("templates/plus-navbar.php");
         <h4>ANDIBI.TK Arch Linux Repo</h4>
     </div>
     <div class="panel-body">
-        <div class="pull-right"><img src="uburemix/archlogo.png" height="187" width="187" alt="ArchLinux Logo"></div>
+        <div class="pull-right"><img src="img/assets/archlogo.png" height="187" width="187" alt="ArchLinux Logo"></div>
         <p>ANDIBI.TK hat eine eigene Arch-Repo!</p>
         <p>Ich habe diese erstellt, da ich das Kompilieren aus dem AUR hasse (dauert ewig) und ich anderen das ersparen möchte. Hier findest du eine Auswahl an interessanten Paketen. Auch ist einige Software in der [andi] Repo aktueller.</p>
     </div>
@@ -68,5 +68,5 @@ include("templates/plus-navbar.php");
     </div><!--/row-->
 
     <!-- Footer -->
-<?php include("templates/plus-footer.php");
+<?php include("templates/footer.php");
       include("templates/htmlEnd.php");?>

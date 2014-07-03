@@ -1,7 +1,7 @@
 <?php
 $shownpage_page = array("page_idf" => "index", "title" => "Home", "description" => "ANDIBI.TK - Die private Website vom Macher der WiiDatabase");
-include("templates/plus-headInclude.php");
-include("templates/plus-navbar.php");
+include("templates/headInclude.php");
+include("templates/navbar.php");
 ?>
     <!--main-->
     <div class="container" id="main">
@@ -12,6 +12,7 @@ include("templates/plus-navbar.php");
         <p>Hier erfährst du etwas über mich und meine Projekte außerhalb der WiiDatabase.</p>
           <a class="btn btn-lg btn-success" href="https://github.com/Brawl345/andibi.tk/commits/master" role="button">Letzte Commits ansehen &raquo;</a>
           <a class="btn btn-lg btn-primary" href="archrepo.php" role="button">Zur Arch Linux Repo &raquo;</a>
+        <a class="btn btn-lg btn-warning" href="discover.php" role="button">Entdecke das neue Design &raquo;</a>
     </div>
     </div>
 
@@ -62,5 +63,5 @@ include("templates/plus-navbar.php");
     </div>
     </div><!--/row-->
     <!-- Footer -->
-<?php include("templates/plus-footer.php");
+<?php include("templates/footer.php");
       include("templates/htmlEnd.php");?>

@@ -8,7 +8,6 @@ body {
 
 #footer {
   height: 60px;
-  background-color: #eeeeee;
 }
 
 .container .credit {
@@ -24,7 +23,6 @@ body {
   position: relative;
   min-height: 50px;
   margin-bottom: 20px;
-  border: 1px solid transparent;
 }
 
 .navbar-inverse {
@@ -100,7 +98,7 @@ body {
   z-index: 20;
 }
 
-Flip around the padding for proper display in narrow viewports 
+Flip around the padding for proper display in narrow viewports
 .navbar-wrapper .container {
   padding-left: 0;
   padding-right: 0;

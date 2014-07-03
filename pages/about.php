@@ -1,7 +1,7 @@
 <?php
 $shownpage_page = array("page_idf" => "about", "title" => "Über", "description" => "ANDIBI.TK Über", "genericons" => "true");
-include("templates/plus-headInclude.php");
-include("templates/plus-navbar.php");
+include("templates/headInclude.php");
+include("templates/navbar.php");
 ?>
     <!--main-->
     <div class="container" id="main">
@@ -12,7 +12,7 @@ include("templates/plus-navbar.php");
       <h4><img src="img/allgoogle/buddies/andibi.jpg" class="img-circle" alt="User-Bild">  Über ANDIBI.TK</h4>
     </div>
      <div class="panel-body">
-      <p>Ich besitze seit 2011 <a href="http://wiidatabase.de/">WiiDatabase.de</a>. Dort schreibe ich über Nintendo & Homebrew.</p>
+      <p>Ich besitze seit 2011 <a href="http://wiidatabase.de/">WiiDatabase.de</a>. Dort schreibe ich über Nintendo &amp; Homebrew.</p>
       <p>Ich teste immer mal wieder meine Fähigkeiten aus, auch auf dieser Website. Vielleicht kommt später mehr Inhalt. Bis dahin!</p>
       <form>
       <div class="input-group">
@@ -132,5 +132,5 @@ include("templates/plus-navbar.php");
 
    </div>
     <!-- Footer -->
-<?php include("templates/plus-footer.php");
+<?php include("templates/footer.php");
       include("templates/htmlEnd.php");?>
