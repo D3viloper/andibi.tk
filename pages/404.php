@@ -1,12 +1,10 @@
 <?php
-// Information about this page
-//$active = "";
 $shownpage_page = array("page_idf" => "404", "title" => "404 - Diese Seite wurde nicht gefunden", "description" => "ANDIBI.TK 404");
-
 include("templates/headInclude.php");
 include("templates/navbar.php");
 ?>
-	<div class="container">
+   <!--main-->
+    <div class="container" id="main">
     <div class="row">
         <div class="col-md-12">
             <div class="error-template">
@@ -19,11 +17,12 @@ include("templates/navbar.php");
                 </div>
                 <div class="error-actions">
                     <a href="index.php" class="btn btn-primary btn-lg"><span class="glyphicon glyphicon-home"></span>
-                        Zur Startseite </a><a href="https://github.com/Brawl345/andibi.tk/issues?state=open" class="btn btn-default btn-lg"><span class="glyphicon glyphicon-bullhorn"></span> Fehler melden </a>
+                        Zur Startseite </a><a href="https://github.com/Brawl345/andibi.tk/issues?state=open" target="_blank" class="btn btn-default btn-lg"><span class="glyphicon glyphicon-bullhorn"></span> Fehler melden </a>
                 </div>
             </div>
         </div>
-    </div>
-</div>
-<?php include("templates/htmlEnd.php");
+    </div><!--/row-->
 
+    <!-- Footer -->
+<?php include("templates/footer.php");
+      include("templates/htmlEnd.php");?>

@@ -10,16 +10,42 @@
 /* to optimize performance load fonts from LINK in HEAD */
 @import url(//fonts.googleapis.com/css?family=Roboto:400);
 
+html { height: 100%; }
 body {
+height: 100%;
   background-color:#e0e0e0;
   -webkit-font-smoothing: antialiased;
   font: normal 14px Roboto,arial,sans-serif;
 }
 
-.navbar-default {background-color:#f4f4f4;margin-top:50px;border-width:0;z-index:5;}
+/* Wrapper for page content to push down footer */
+#wrap {
+  min-height: 100%;
+  height: auto;
+  /* Negative indent footer by its height */
+  margin: 0 auto -60px;
+  /* Pad bottom by footer height */
+  padding: 0 0 60px;
+}
+
+#wrap > .container {
+  padding: 60px 15px 0;
+}
+.container .credit {
+  margin: 20px 0;
+}
+
+#footer > .container {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.navbar-default {background-color:#f4f4f4;border-width:0;z-index:5;}
 .navbar-default .navbar-nav > .active > a,.navbar-default .navbar-nav > li:hover > a {border:0 solid #4285f4;border-bottom-width:2px;font-weight:800;background-color:transparent;}
 .navbar-default .dropdown-menu {background-color:#ffffff;}
 .navbar-default .dropdown-menu li > a {padding-left:30px;}
+.navbar-default .navbar-brand { color:#428bca;}
+.navbar-default .navbar-right>li:hover > a { border:0; font-weight: normal;}
 
 .header {background-color:#ffffff;border-width:0;}
 .header .navbar-collapse {background-color:#ffffff;}
@@ -29,11 +55,11 @@ body {
 .btn-primary {border-color:transparent;}
 .btn-primary,.label-primary,.list-group-item.active, .list-group-item.active:hover, .list-group-item.active:focus {background-color:#4285f4;}
 .btn-plus {background-color:#ffffff;border-width:1px;border-color:#dddddd;box-shadow:1px 1px 0 #999999;border-radius:3px;color:#666666;text-shadow:0 0 1px #bbbbbb;}
-.well,.panel {border-color:#d2d2d2;box-shadow:0 1px 0 #cfcfcf;border-radius:3px;}
+.well,.panel,.jumbotron, .navbar-default {border-color:#d2d2d2;box-shadow:0 1px 0 #cfcfcf;border-radius:3px;}
 .btn-success,.label-success,.progress-bar-success{background-color:#65b045;}
 .btn-info,.label-info,.progress-bar-info{background-color:#a0c3ff,border-color:#a0c3ff;}
 .btn-danger,.label-danger,.progress-bar-danger{background-color:#dd4b39;}
-.btn-warning,.label-warning,.progress-bar-warning{background-color:#f4b400;color:#444444;}
+.label-warning,.progress-bar-warning{background-color:#f4b400;color:#444444;}
 
 hr {border-color:#ececec;}
 
@@ -44,7 +70,7 @@ textarea {
   resize: none;
   outline: 0;
 }
-.panel .btn i,.btn span{
+.panel .btn i{
   color:#666666;
 }
 .panel .panel-heading {
@@ -77,6 +103,15 @@ h3,h4,h5 {
   padding-bottom:10px;
 }
 
+h4, .h4, h5, .h5, h6, .h6 {
+margin-top: 10px;
+margin-bottom: -16px;
+}
+
+.well > h4, .h4, h5, .h5, h6, .h6 {
+    margin-bottom: 10px;
+}
+
 .modal-dialog {
  width: 450px;
 }
@@ -107,6 +142,6 @@ h3,h4,h5 {
 }
 
 #main {
-        padding-top:120px;
+        padding-top:65px;
 }
 /* end template layout */
