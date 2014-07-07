@@ -7,6 +7,7 @@ if(file_exists("config.php")) {
     }
 include("lib/meldung.php");
 include("lib/modal.php");
+include("lib/cururl.php");
 if ($_GET['page']) {
     if(file_exists("pages/" . $_GET['page'] . ".php")) {
         $file_path = "pages/" . $_GET['page'] . ".php";
