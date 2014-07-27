@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- NO <meta http-equiv="X-UA-Compatible" content="IE=edge">, because fuck you IE -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="<?php echo $shownpage_page['description']; ?>">
     <meta name="author" content="Andreas Bielawski">
