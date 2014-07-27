@@ -59,7 +59,7 @@ height: 100%;
 .btn-success,.label-success,.progress-bar-success{background-color:#65b045;}
 .btn-info,.label-info,.progress-bar-info{background-color:#a0c3ff,border-color:#a0c3ff;}
 .btn-danger,.label-danger,.progress-bar-danger{background-color:#dd4b39;}
-.label-warning,.progress-bar-warning{background-color:#f4b400;color:#444444;}
+.label-warning,.progress-bar-warning{background-color:#f4b400;}
 
 hr {border-color:#ececec;}
 

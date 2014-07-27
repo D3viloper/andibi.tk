@@ -37,7 +37,11 @@ include("templates/navbar.php");
     <div class="col-md-12 col-sm-12">
     <div class="well">
       <h4>Alternativen</h4>
-      <p>//TODO</p>
+      <ul>
+        <li><a href="http://abload.de/" target="_blank">abload.de</a> - unbegrenzter Speicher, keine Löschungen <span class="label label-success">Empfohlen!</span></li>
+        <li><a href="https://imgur.com/" target="_blank">imgur.com</a> - schneller Bilderhoster <span class="label label-warning">HTTPS</span></li>
+        <li><a href="https://img.pegelf.de/" target="_blank">img.pegelf.de</a> - Bilderhoster von <a href="https://pegelf.de/" target="_blank">pegelf.de</a> <span class="label label-warning">HTTPS</span></li>
+      </ul>
     </div>
     </div>
     </div><!--/row-->
