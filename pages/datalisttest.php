@@ -14,11 +14,11 @@ include("templates/navbar.php");
      <div class="panel-body">
       <p><input type="text" value="Schreibe hier!" list="browsers" /></p>
          <datalist id="browsers">
-             <option value="Chrome"></option>
-             <option value="Firefox"></option>
-             <option value="Internet Explorer"></option>
-             <option value="Opera"></option>
-             <option value="Safari"></option>
+             <option>Chrome</option>
+             <option>Firefox</option>
+             <option>Internet Explorer</option>
+             <option>Opera</option>
+             <option>Safari</option>
          </datalist>
       </div>
       </div>
@@ -152,6 +152,7 @@ include("templates/navbar.php");
         <li><strong>Opera:</strong> keine Vorschläge für Daten &amp; Zeiten</li>
         <li><strong>Internet Explorer:</strong> Hier funktioniert gar nichts (wenig verwunderlich)</li>
         </ul>
+    </div>
     </div>
     </div><!--/row-->
 
