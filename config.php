@@ -12,5 +12,5 @@ $config_navbar_content = array(
                                                                                                                                       array("text" => "Gefährliches Copy &amp; Paste", "page_idf" => "cp"),
                                                                                                                                       array("text" => "User-Agent", "page_idf" => "ua")))
                             );
-$config_global_meldung = array("activated" => "true", "bell_count" => "1", "level" => "info", "message" => 'ANDIBI.TK ist nun <strong>voll HTML5-valide</strong>!');
+$config_global_meldung = array("activated" => "false", "bell_count" => "1", "level" => "info", "message" => 'ANDIBI.TK ist nun <strong>voll HTML5-valide</strong>!');
 ?>
