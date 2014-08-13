@@ -9,7 +9,7 @@ include("templates/navbar.php");
         <div class="col-md-6 col-sm-6">
     <div class="panel panel-default">
     <div class="panel-heading">
-      <h4><img src="img/allgoogle/buddies/andibi.jpg" class="img-circle" alt="User-Bild">  Über ANDIBI.TK</h4>
+      <h4><img src="img/assets/andibi.jpg" class="img-circle" alt="User-Bild">  Über ANDIBI.TK</h4>
     </div>
      <div class="panel-body">
       <p>Ich besitze seit 2011 <a href="http://wiidatabase.de/">WiiDatabase.de</a>. Dort schreibe ich über Nintendo &amp; Homebrew.</p>
