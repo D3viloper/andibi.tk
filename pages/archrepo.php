@@ -6,6 +6,7 @@ include("templates/navbar.php");
     <!--main-->
     <div class="container" id="main">
     <div class="row">
+        <?php echo meldung('Es wurden einige Pakete aus der Repo entfernt. Bitte <a href="archrepo-entfernung.php">überprüfe mit dieser Liste</a>.', warning); ?>
     <div class="col-md-6">
     <div class="panel panel-default">
     <div class="panel-heading">
