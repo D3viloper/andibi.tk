@@ -12,7 +12,7 @@ include("templates/navbar.php");
         <div class="col-md-6 col-sm-6">
     <div class="panel panel-default">
     <div class="panel-heading">
-      <h4>Endgültige Enternung von Paketen aus der Arch-Repo</h4>
+      <h4>Endgültige Entfernung von Paketen aus der Arch-Repo</h4>
     </div>
      <div class="panel-body">
       <p>Folgende Pakete wurden entfernt:</p>
