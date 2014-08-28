@@ -38,9 +38,9 @@ include("templates/navbar.php");
       <h4>Steckbrief</h4>
       <p><strong>Nickname:</strong> iCON</p>
       <p><strong>Geboren:</strong> '98</p>
-      <p><strong>Interessen:</strong> PC, Spielekonsolen, Linux, Google</p>
+      <p><strong>Interessen:</strong> PC, Spielekonsolen (Homebrew)</p>
       <p><strong>Fähigkeiten:</strong> HTML, etwas CSS, etwas PHP</p>
-      <p><strong>OS &amp; Browser:</strong> Ubuntu und Google Chrome</p>
+      <p><strong>OS &amp; Browser:</strong> Ubuntu und Mozilla Firefox</p>
     </div>
 
     <div class="panel panel-default">
