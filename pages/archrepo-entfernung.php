@@ -32,6 +32,9 @@ include("templates/navbar.php");
            <tr><td><a href="https://aur.archlinux.org/packages/kmozillahelper" target="_blank">kmozillahelper</a></td>
                <td>15. August 2014</td>
                <td>Abhängigkeit von firefox-kde-opensuse</td></tr>
+           <tr><td><a href="https://aur.archlinux.org/packages/libechonest" target="_blank">libechonest</a></td>
+               <td>01. September 2014</td>
+               <td>Abhängigkeit von tomahawk (vergessen...)</td></tr>
            <tr><td><a href="https://aur.archlinux.org/packages/qtweetlib" target="_blank">qtweetlib</a></td>
                <td>15. August 2014</td>
                <td>Abhängigkeit von tomahawk</td></tr>
