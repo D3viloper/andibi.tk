@@ -50,6 +50,9 @@ include("templates/navbar.php");
            <tr><td><a href="https://aur.archlinux.org/packages/tomahawk" target="_blank">tomahawk</a></td>
                <td>15. August 2014</td>
                <td>-</td></tr>
+           <tr><td><a href="https://www.archlinux.org/packages/?sort=&repo=Community&q=wiimms+iso+tools&maintainer=&flagged=" target="_blank">wit</a></td>
+               <td>05. September 2014</td>
+               <td>Seit August in [community]</td></tr>
       </table>
       </div>
       </div>
