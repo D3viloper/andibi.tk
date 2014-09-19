@@ -150,7 +150,8 @@ include("templates/navbar.php");
         <li><strong>Google Chrome:</strong> keine Farbpipette mehr seit Aura, extrem abgespecktes Farbmenü</li>
         <li><strong>Mozilla Firefox:</strong> keine vordefinierten Farben, kein Kalender</li>
         <li><strong>Opera:</strong> keine Vorschläge für Daten &amp; Zeiten</li>
-        <li><strong>Internet Explorer:</strong> Hier funktioniert gar nichts (wenig verwunderlich)</li>
+	<li><strong>Chropera:</strong> keine Vorschläge für Daten &amp; Zeiten</li>
+        <li><strong>Internet Explorer:</strong> Hier funktioniert fast gar nichts.</li>
         </ul>
     </div>
     </div>

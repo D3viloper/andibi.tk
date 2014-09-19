@@ -22,9 +22,20 @@ include("templates/navbar.php");
       <h4>WiiDatabase.de</h4>
     </div>
     <div class="panel-body">
-    <p>Die WiiDatabase wurde am 04. August 2011 gegründet. Hier gibt es aktuelle News & Downloads rund um Wii, Wii U, 3DS und Homebrew.</p>
+    <p>Die WiiDatabase wurde am 04. August 2011 gegründet. Hier gibt es aktuelle News &amp; Downloads rund um Wii, Wii U, 3DS und Homebrew.</p>
     <div class="list-group">
                 <p><a href="http://wiidatabase.de" target="_blank" class="list-group-item active">Besuche WiiDatabase.de</a></p>
+              </div>
+    </div>
+    </div>
+    <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4>Operafans.tk</h4>
+    </div>
+    <div class="panel-body">
+    <p>Ein Blog über den Opera-Browser, Opera Mobile und der Opera Software ASA</p>
+    <div class="list-group">
+                <p><a href="http://operafans.tk" target="_blank" class="list-group-item active">Besuche Operafans.tk</a></p>
               </div>
     </div>
     </div>
@@ -33,12 +44,12 @@ include("templates/navbar.php");
     <div class="col-md-4">
     <div class="panel panel-default">
     <div class="panel-heading">
-      <h4>WiiDatabase Wiki (beta)</h4>
+      <h4>WiiDatabase Wiki</h4>
     </div>
     <div class="panel-body">
-    <p>Ein Wiki über Wii, Wii U, 3DS, Homebrew und mehr! Beta-Phase</p>
+    <p>Ein Wiki über Wii, Wii U, 3DS, Homebrew und mehr!</p>
     <div class="list-group">
-                <p><a href="http://wiki.wiidatabase.de/wiki/Hauptseite" target="_blank" class="list-group-item active">Besuche das WiiDatabase Wiki (beta)</a></p>
+                <p><a href="http://wiki.wiidatabase.de/wiki/Hauptseite" target="_blank" class="list-group-item active">Besuche das WiiDatabase Wiki</a></p>
               </div>
     </div>
     </div>

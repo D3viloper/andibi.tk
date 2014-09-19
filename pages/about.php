@@ -116,7 +116,7 @@ include("templates/navbar.php");
     </div>
      </div>
 
-    <div class="col-md-8 col-sm-6">
+    <div class="col-md-4 col-sm-6">
     <div class="panel panel-default">
     <div class="panel-heading">
       <h4>ANDIBI.TK</h4>
@@ -126,6 +126,20 @@ include("templates/navbar.php");
     <div class="clearfix"></div>
       <hr>
       <a href="https://github.com/Brawl345/andibi.tk" target="_blank" class="list-group-item active">Zum Projekt</a>
+    </div>
+    </div>
+     </div>
+
+    <div class="col-md-4 col-sm-6">
+    <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4>Operafans</h4>
+    </div>
+    <div class="panel-body">
+    <p>Ein Blog über den Opera-Browser, Opera Mobile und der Opera Software ASA</p>
+    <div class="clearfix"></div>
+      <hr>
+      <a href="http://operafans.tk" target="_blank" class="list-group-item active">Zum Projekt</a>
     </div>
     </div>
      </div>
