@@ -65,7 +65,7 @@ include("templates/navbar.php");
       <h4>Was bedeutet das für mich?</h4>
     </div>
      <div class="panel-body">
-      <p>Das bedeutet, dass du diese Pakete deinstallieren solltest, wenn du sie installierst hast. Ich bedauere diesen Scrhitt wirklich sehr, aber mit der Zeit werden manche Pakete unwartbar oder die Lizenz ist nicht eindeutig festgelegt. Informiert wirst du über Entfernungen auf Twitter: <a href="https://twitter.com/ChromeAndLinux" target="_blank">@ChromeAndLinux</a>.</p>
+      <p>Das bedeutet, dass du diese Pakete deinstallieren solltest, wenn du sie installierst hast. Ich bedauere diesen Schritt wirklich sehr, aber mit der Zeit werden manche Pakete unwartbar oder die Lizenz ist nicht eindeutig festgelegt. Informiert wirst du über Entfernungen auf Twitter: <a href="https://twitter.com/ChromeAndLinux" target="_blank">@ChromeAndLinux</a>.</p>
         </div>
       </div>
         </div>
