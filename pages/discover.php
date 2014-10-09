@@ -37,7 +37,7 @@ include("templates/navbar.php");
           </div>
         </div>
        <div class="item">
-          <img src="img/carousel/google-plus.png" alt="Google Plus">
+          <img src="img/carousel/inspired.png" alt="Inspiriert von Google Plus">
           <div class="container">
             <div class="carousel-caption">
                 <h1>Inspiriert von Google+</h1>
@@ -62,7 +62,7 @@ include("templates/navbar.php");
       <!-- Three columns of text below the carousel -->
       <div class="row">
         <div class="col-lg-4">
-          <img class="img-circle" src="img/carousel/google-plus.png" height="150" width="150" alt="Design">
+          <img class="img-circle" src="img/carousel/inspired.png" height="150" width="150" alt="Design">
           <h2>Design</h2>
           <p>Moderner als je zuvor.</p>
           <p><a class="btn btn-plus" href="#design" role="button">Mehr Infos &raquo;</a></p>
