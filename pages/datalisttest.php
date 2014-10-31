@@ -147,11 +147,11 @@ include("templates/navbar.php");
       <p>Dann beherrscht dein Browser diese HTML5-Features nicht! <a href="https://www.google.com/intl/de/chrome/browser/" target="_blank">Installiere einen moderneren Browser</a> für ein schnelleres &amp; besseres Web!</p>
         <p>Momentane Probleme:</p>
         <ul>
-        <li><strong>Google Chrome:</strong> keine Farbpipette mehr seit Aura, extrem abgespecktes Farbmenü</li>
-        <li><strong>Mozilla Firefox:</strong> keine vordefinierten Farben, kein Kalender</li>
-        <li><strong>Opera:</strong> keine Vorschläge für Daten &amp; Zeiten</li>
-	<li><strong>Chropera:</strong> keine Vorschläge für Daten &amp; Zeiten</li>
-        <li><strong>Internet Explorer:</strong> Hier funktioniert fast gar nichts.</li>
+	  <li><strong>Chropera:</strong> Besteht als erster Browser ALLES perfekt!</li>
+          <li><strong>Google Chrome:</strong> keine Farbpipette mehr seit Aura, extrem abgespecktes Farbmenü</li>
+          <li><strong>Mozilla Firefox:</strong> keine vordefinierten Farben, kein Kalender</li>
+          <li><strong>Opera:</strong> keine Vorschläge für Daten &amp; Zeiten</li>
+          <li><strong>Internet Explorer:</strong> Hier funktioniert fast gar nichts.</li>
         </ul>
     </div>
     </div>
