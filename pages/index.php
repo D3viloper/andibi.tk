@@ -11,7 +11,6 @@ include("templates/navbar.php");
         <h1>Willkommen auf ANDIBI.TK!</h1>
         <p>Hier erfährst du etwas über mich und meine Projekte außerhalb der WiiDatabase.</p>
           <a class="btn btn-lg btn-success" href="https://github.com/Brawl345/andibi.tk/commits/master" role="button">Letzte Commits ansehen &raquo;</a>
-          <a class="btn btn-lg btn-primary" href="archrepo.php" role="button">Zur Arch Linux Repo &raquo;</a>
         <a class="btn btn-lg btn-warning" href="discover.php" role="button">Entdecke das neue Design &raquo;</a>
     </div>
     </div>
