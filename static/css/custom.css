@@ -1,0 +1,117 @@
+/*
+
+        Bootsrap Google Plus Style Theme from Bootply.com http://bootply.com/templates
+        https://github.com/iatek/bootstrap-google-plus
+        License: GPL
+        Target Version: Bootstrap 3.0.2
+
+*/
+
+
+
+/* Wrapper for page content to push down footer */
+#wrap {
+  min-height: 100%;
+  height: auto;
+  /* Negative indent footer by its height */
+  margin: 0 auto -60px;
+  /* Pad bottom by footer height */
+  padding: 0 0 60px;
+}
+
+#wrap > .container {
+  padding: 70px 15px 0;
+}
+.container .credit {
+  margin: 20px 0;
+}
+
+#footer > .container {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+hr {border-color:#ececec;}
+
+button {
+        outline: 0;
+}
+textarea {
+  resize: none;
+  outline: 0;
+}
+.panel .btn i{
+  color:#666666;
+}
+.panel .panel-heading {
+  background-color:#ffffff;
+  font-weight:700;
+  font-size:16px;
+  color:#262626;
+  border-color:#ffffff;
+}
+.panel .panel-heading a {
+  font-weight:400;
+  font-size:11px;
+}
+.panel .panel-default {
+  border-color:#cccccc;
+}
+.panel .panel-thumbnail {
+  padding:0;
+}
+.panel .img-circle {
+  width:50px;
+  height:50px;
+}
+.list-group-item:first-child,.list-group-item:last-child {
+        border-radius:0;
+}
+h3,h4,h5 {
+  border:0 solid #efefef;
+  border-bottom-width:1px;
+  padding-bottom:10px;
+}
+
+h4, .h4, h5, .h5, h6, .h6 {
+margin-top: 10px;
+margin-bottom: -16px;
+}
+
+.well > h4, .h4, h5, .h5, h6, .h6 {
+    margin-bottom: 10px;
+}
+
+.modal-dialog {
+ width: 450px;
+}
+
+.modal-footer {
+ border-width:0;
+}
+
+.dropdown-menu {
+   background-color:#f4f4f4;
+   border-color:#f0f0f0;
+   border-radius:0;
+   margin-top:-1px;
+}
+/* end theme styles */
+
+
+/* template layout */
+#subnav {
+        position:fixed;
+    width:100%;
+}
+
+@media (max-width: 768px) {
+        #subnav {
+        padding-top: 6px;
+        }
+}
+
+#main {
+        padding-top:65px;
+}
+/* end template layout */

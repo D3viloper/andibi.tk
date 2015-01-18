@@ -9,7 +9,7 @@ include("templates/navbar.php");
         <div class="col-md-6 col-sm-6">
     <div class="well">
       <h4>Dein User-Agent lautet:</h4>
-      <p><?php echo $_SERVER['HTTP_USER_AGENT']; ?></p>
+  <input class="form-control" name="ua" placeholder="label" type="text" value="<?php echo $_SERVER['HTTP_USER_AGENT']; ?>" readonly="readonly">
     </div>
     <div class="panel panel-default">
     <div class="panel-heading">
@@ -24,7 +24,7 @@ include("templates/navbar.php");
     <div class="col-md-6 col-sm-6">
     <div class="well">
       <h4>Deine IP-Adresse lautet:</h4>
-      <p><?php echo $_SERVER['REMOTE_ADDR']; ?></p>
+  <input class="form-control" name="ip" placeholder="label" type="text" value="<?php echo $_SERVER['REMOTE_ADDR']; ?>" readonly="readonly">
     </div>
 
     <div class="panel panel-default">

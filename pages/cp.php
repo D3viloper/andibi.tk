@@ -20,7 +20,7 @@ include("templates/navbar.php");
       </div>
     <div class="well">
       <h4>Füge den Text in dieses Textfeld ein:</h4>
-      <textarea cols=60 rows=4></textarea>
+        <textarea class="form-control floating-label" placeholder="Füge den kopierten Text hier ein und schau was passiert!" cols="60" rows="4"></textarea>
     </div>
 
     </div>
