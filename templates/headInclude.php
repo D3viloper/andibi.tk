@@ -12,7 +12,8 @@
       <!-- Bootstrap core CSS -->
       <link rel="stylesheet" href="static/css/bootstrap.min.css">
       <!-- Custom styles for this page -->
-    <link href="static/css/gplus.css" rel="stylesheet">
+	<link href="static/css/ripples.min.css" rel="stylesheet">
+	<link href="static/css/material-wfont.min.css" rel="stylesheet">
       <?php if($shownpage_page['page_idf'] == "404"):?>
       <!-- Custom styles for this error page -->
       <link rel="stylesheet" href="static/css/404.css">
