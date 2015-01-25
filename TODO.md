@@ -1,0 +1,3 @@
+[ ] Opera Presto Support fixen
+[ ] Verschwindende Navbar beim Hochscrollen im Opera-Browser für Android
+[ ] Material-Design-Icons nutzen
