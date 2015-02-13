@@ -9,7 +9,7 @@ include("templates/navbar.php");
         <div class="col-md-6 col-sm-6">
     <div class="well">
       <h4>Dein User-Agent lautet:</h4>
-        <textarea class="form-control" cols="60" rows="2" readonly="readonly"><?php echo $_SERVER['HTTP_USER_AGENT']; ?></textarea>
+       <textarea class="form-control" cols="60" rows="10" readonly="readonly"><?php echo $_SERVER['HTTP_USER_AGENT']; ?></textarea>
     </div>
     <div class="panel panel-default">
     <div class="panel-heading">
