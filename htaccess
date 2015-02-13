@@ -1,5 +1,4 @@
 RewriteEngine On
-RewriteBase /
 #External redirect with THE_REQUEST trick; change R to R=301 when everything works correctly
 RewriteCond %{THE_REQUEST} ^(GET|POST)\ /index\.php\?page=(.*)\ HTTP
 RewriteRule ^ /%2.php\? [R=301,L,QSA]
