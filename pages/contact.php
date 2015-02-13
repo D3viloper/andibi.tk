@@ -18,7 +18,7 @@ include("templates/navbar.php");
         <p>96215 Lichtenfels</p><br>
         <p><strong>ANDIBI.TK ist völlig unabhängig von WiiDatabase.de</strong></p><br>
            <div class="clearfix"></div><hr>
-        <p>ANDIBI.TK verwendet <a href="http://getbootstrap.com/">Twitters Bootstrap</a> und <a href="http://genericons.com/">Genericons</a>. Danke an die Ersteller dieser großartigen Tools!</p>
+        <p>ANDIBI.TK verwendet <a href="http://getbootstrap.com/">Twitters Bootstrap</a>, <a href="https://fezvrasta.github.io/bootstrap-material-design/#about" target="_blank">FezVrastas Bootstrap-Material-Design-Template</a> und <a href="http://genericons.com/">Genericons</a>. Danke an die Ersteller dieser großartigen Tools!</p><br>
     </div>
     </div>
     </div>

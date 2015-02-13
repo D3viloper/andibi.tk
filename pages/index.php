@@ -22,20 +22,9 @@ include("templates/navbar.php");
     </div>
     <div class="panel-body">
     <p>Die WiiDatabase wurde am 04. August 2011 gegründet. Hier gibt es aktuelle News &amp; Downloads rund um Wii, Wii U, 3DS und Homebrew.</p>
-    <div class="list-group">
-                <p><a href="http://wiidatabase.de" target="_blank" class="list-group-item active">Besuche WiiDatabase.de</a></p>
-              </div>
-    </div>
-    </div>
-    <div class="panel panel-default">
-    <div class="panel-heading">
-      <h4>Operafans.tk</h4>
-    </div>
-    <div class="panel-body">
-    <p>Ein Blog über den Opera-Browser, Opera Mobile und der Opera Software ASA</p>
-    <div class="list-group">
-                <p><a href="http://operafans.tk" target="_blank" class="list-group-item active">Besuche Operafans.tk</a></p>
-              </div>
+    <div class="clearfix"></div>
+      <hr>
+    <a href="http://wiidatabase.de" target="_blank" class="list-group-item active shadow-z-2">Besuche WiiDatabase.de</a>
     </div>
     </div>
     </div>
@@ -47,9 +36,9 @@ include("templates/navbar.php");
     </div>
     <div class="panel-body">
     <p>Ein Wiki über Wii, Wii U, 3DS, Homebrew und mehr!</p>
-    <div class="list-group">
-                <p><a href="http://wiki.wiidatabase.de/wiki/Hauptseite" target="_blank" class="list-group-item active">Besuche das WiiDatabase Wiki</a></p>
-              </div>
+    <div class="clearfix"></div>
+      <hr>
+    <a href="https://wiki.wiidatabase.de/wiki/Hauptseite" target="_blank" class="list-group-item active shadow-z-2">Besuche das WiiDatabase Wiki</a>
     </div>
     </div>
     </div>
@@ -65,9 +54,9 @@ include("templates/navbar.php");
   Gegen diese Probleme wirst du in unserer Community viele freundliche Helfer finden.
   Seit mehreren Jahren treffen sich gleichgesinnte Technikfans im Teenageralter, um sich über das Neuste auszutauschen und Spass zu haben.
   Wir bieten dir ein Forum, einen Blog und einen Minecraftserver. Wenn du dich also angesprochen fühlst, worauf wartest du noch?</p>
-    <div class="list-group">
-                <p><a href="http://pegelf.de" target="_blank" class="list-group-item active">Besuche Pegelf.de</a></p>
-              </div>
+    <div class="clearfix"></div>
+      <hr>
+    <a href="https://pegelf.de" target="_blank" class="list-group-item active shadow-z-2">Besuche Pegelf.de</a>
     </div>
     </div>
     </div>

@@ -1,5 +1,5 @@
 <?php
-$shownpage_page = array("page_idf" => "ua", "title" => "User-Agent", "isindropdown" => "tools", "description" => "ANDIBI.TK - Dein User-Agent");
+$shownpage_page = array("page_idf" => "ua", "title" => "User-Agent &amp; IP", "isindropdown" => "tools", "description" => "ANDIBI.TK - Dein User-Agent und deine IP");
 include("templates/headInclude.php");
 include("templates/navbar.php");
 ?>
@@ -9,7 +9,7 @@ include("templates/navbar.php");
         <div class="col-md-6 col-sm-6">
     <div class="well">
       <h4>Dein User-Agent lautet:</h4>
-      <p><?php echo $_SERVER['HTTP_USER_AGENT']; ?></p>
+       <textarea class="form-control" cols="60" rows="10" readonly="readonly"><?php echo $_SERVER['HTTP_USER_AGENT']; ?></textarea>
     </div>
     <div class="panel panel-default">
     <div class="panel-heading">
@@ -24,7 +24,7 @@ include("templates/navbar.php");
     <div class="col-md-6 col-sm-6">
     <div class="well">
       <h4>Deine IP-Adresse lautet:</h4>
-      <p><?php echo $_SERVER['REMOTE_ADDR']; ?></p>
+  <input class="form-control" name="ip" placeholder="label" type="text" value="<?php echo $_SERVER['REMOTE_ADDR']; ?>" readonly="readonly">
     </div>
 
     <div class="panel panel-default">
