@@ -17,7 +17,7 @@ include("templates/navbar.php");
     </div>
     <div class="panel-body">
         <div class="pull-right"><img src="img/assets/archlogo.png" height="187" width="187" alt="ArchLinux Logo"></div>
-        <p>ANDIBI.TK hatte eine eigene Arch-Repo, diese wurde am 2. November 2014 eingestellt. Die Pakete sind eingefroren als Archiv verfügbar.</p>
+        <p>ANDIBI.TK hatte eine eigene Arch-Repo, diese wurde am 2. November 2014 eingestellt. Die Pakete sind eingefroren als Archiv verfügbar. <strong>Diese könnten Sicherheitslücken aufweisen! Es wird empfohlen, die Repository nicht mehr zu benutzen!</strong></p>
     </div>
     </div>
     <a id="troubleshooting"></a>
@@ -47,10 +47,8 @@ include("templates/navbar.php");
       <h4>Füge das Repo-Archiv hinzu</h4>
     </div>
     <div class="panel-body">
-    <div class="alert alert-warning">
-          <p>Die Repo unterstützt nur x86_64 (64 Bit)!</p>
-        </div>
-	          <?php echo meldung('Die Repo wurde eingestellt. Ich biete die Pakete vom 2. November 2014, 15:18 Uhr noch als Archiv an.', danger); ?>
+    <?php echo meldung('Die Repo unterstützt nur x86_64 (64 Bit).', warning); ?>
+              <?php echo meldung('Die Repo wurde eingestellt. Ich biete die Pakete vom 2. November 2014, 15:18 Uhr noch als Archiv an.', danger); ?>
           <p>Öffne die <code>/etc/pacman.conf</code> in einem Editor mit Root-Rechten und füge folgendes ganz unten hinzu:</p>
           <div class="well">
             <p>[andi]<br>
@@ -58,7 +56,7 @@ include("templates/navbar.php");
           </div>
           <p>Lade dann mit <code>sudo pacman -Sy</code> die Repos neu!</p>
           <p><strong>Die Repo und alle Pakete sind von mir seit dem 28. Juni 2014 signiert.</strong> Pacman wird dich fragen, ob du den Key importieren möchtest. Wähle "J".</p>
-	 <p><strong>DIESE REPO ERHÄLT KEINE UPDATES!</strong></p>
+     <p><strong>DIESE REPO ERHÄLT KEINE UPDATES!</strong></p>
     </div>
     </div>
     </div>

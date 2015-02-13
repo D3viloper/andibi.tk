@@ -76,12 +76,12 @@ include("templates/navbar.php");
       <div class="well well-sm">
         <div class="media">
           <a class="thumbnail pull-left" href="https://github.com/Brawl345">
-            <img class="img-circle media-object" src="https://avatars2.githubusercontent.com/u/5049892" alt="GitHub User-Bild">
+            <img class="media-object" src="https://avatars2.githubusercontent.com/u/5049892" height="45" width="45"  alt="GitHub User-Bild">
           </a>
           <div class="media-body">
             <h4 class="media-heading">Brawl345</h4>
-            <p><span class="label label-info">7 Repositorys</span></p>
-            <p><a href="https://github.com/Brawl345" class="btn btn-xs btn-default" target="_blank"><span class="glyphicon glyphicon-heart"></span> Folgen</a></p>
+            <p><span class="label label-info shadow-z-1">9 Repositorys</span></p>
+            <p><a href="https://github.com/Brawl345" class="btn btn-xs btn-primary shadow-z-2" target="_blank"><span class="glyphicon glyphicon-heart"></span> Folgen</a></p>
           </div>
         </div>
     </div>
@@ -97,7 +97,7 @@ include("templates/navbar.php");
     <p>Ein Programm, welches Wii-Homebrews von der WiiDatabase herunterlädt.</p>
     <div class="clearfix"></div>
       <hr>
-      <a href="http://wdd.wiidatabase.de" target="_blank" class="list-group-item active">Zum Projekt</a>
+      <a href="http://wdd.wiidatabase.de" target="_blank" class="list-group-item active shadow-z-2">Zum Projekt</a>
     </div>
     </div>
     </div>
@@ -111,12 +111,12 @@ include("templates/navbar.php");
     <p>Eine minimaler Paste-Service - der Server hat keine Ahnung von den Daten.</p>
     <div class="clearfix"></div>
       <hr>
-      <a href="http://wiidatabase.de/paste" target="_blank" class="list-group-item active">Zum Projekt</a>
+      <a href="http://wiidatabase.de/paste" target="_blank" class="list-group-item active shadow-z-2">Zum Projekt</a>
     </div>
     </div>
      </div>
 
-    <div class="col-md-4 col-sm-6">
+    <div class="col-md-8 col-sm-6">
     <div class="panel panel-default">
     <div class="panel-heading">
       <h4>ANDIBI.TK</h4>
@@ -125,24 +125,11 @@ include("templates/navbar.php");
     <p>Diese Website. Eine Website über mich und meine Projekte außerhalb der <a href="http://wiidatabase.de" target="_blank">WiiDatabase</a>.</p>
     <div class="clearfix"></div>
       <hr>
-      <a href="https://github.com/Brawl345/andibi.tk" target="_blank" class="list-group-item active">Zum Projekt</a>
+      <a href="https://github.com/Brawl345/andibi.tk" target="_blank" class="list-group-item active shadow-z-2">Zum Projekt</a>
     </div>
     </div>
      </div>
 
-    <div class="col-md-4 col-sm-6">
-    <div class="panel panel-default">
-    <div class="panel-heading">
-      <h4>Operafans</h4>
-    </div>
-    <div class="panel-body">
-    <p>Ein Blog über den Opera-Browser, Opera Mobile und der Opera Software ASA</p>
-    <div class="clearfix"></div>
-      <hr>
-      <a href="http://operafans.tk" target="_blank" class="list-group-item active">Zum Projekt</a>
-    </div>
-    </div>
-     </div>
 
    </div>
     <!-- Footer -->

@@ -1,8 +1,8 @@
 <?php
-$shownpage_page = array("page_idf" => "discover", "title" => "Ein neues Design für ANDIBI.TK", "description" => "Entdecke das neue Design für ANDIBI.TK");
+$shownpage_page = array("page_idf" => "discover", "title" => "Ein neues Design für ANDIBI.TK (2015)", "description" => "Entdecke das neue Material-Design für ANDIBI.TK");
 $page_has_extra_navbarentry = "true";
 $page_has_extra_navbarentry_url = "discover.php";
-$page_has_extra_navbarentry_title = "Ein neues Design für ANDIBI.TK";
+$page_has_extra_navbarentry_title = "Ein neues Design für ANDIBI.TK (2015)";
 include("templates/headInclude.php");
 include("templates/navbar.php");
 ?>
@@ -17,12 +17,12 @@ include("templates/navbar.php");
       </ol>
       <div class="carousel-inner">
         <div class="item active">
-          <img src="img/carousel/andibitk.png" alt="ANDIBI.TK">
+          <img src="img/carousel/material.jpg" alt="ANDIBI.TK">
           <div class="container">
             <div class="carousel-caption">
-              <h1>Ein neues Design für ANDIBI.TK</h1>
+              <h1>Ein neues Jahr, ein neues Design</h1>
               <p>ANDIBI.TK hat jetzt ein brandneues Design, welches auf der Höhe der Zeit ist!</p>
-              <p><a class="btn btn-lg btn-primary" href="index.php" role="button">Jetzt erleben</a></p>
+              <p><a class="btn btn-lg btn-danger shadow-z-2" href="index.php" role="button">Jetzt erleben</a></p>
             </div>
           </div>
         </div>
@@ -32,17 +32,17 @@ include("templates/navbar.php");
             <div class="carousel-caption">
               <h1>Powered by Bootstrap</h1>
               <p>ANDIBI.TK benutzt Bootstrap, ein Framework zur einfachen Gestaltung von Webanwendungen.</p>
-              <p><a class="btn btn-lg btn-primary" href="http://getbootstrap.com/" target="_blank" role="button">Mehr erfahren</a></p>
+              <p><a class="btn btn-lg btn-primary shadow-z-2" href="http://getbootstrap.com/" target="_blank" role="button">Mehr erfahren</a></p>
             </div>
           </div>
         </div>
        <div class="item">
-          <img src="img/carousel/inspired.png" alt="Inspiriert von Google Plus">
+          <img src="img/carousel/inspired.png" alt="Inspiriert vom Android 5">
           <div class="container">
             <div class="carousel-caption">
-                <h1>Inspiriert von Google+</h1>
-              <p>Das neue Design für ANDIBI.TK wurde inspiriert von Google+.</p>
-              <p><a class="btn btn-lg btn-primary" href="#beginpromotion" role="button">Jetzt entdecken!</a></p>
+                <h1>Inspiriert von Android 5</h1>
+              <p>Das neue Design für ANDIBI.TK befolgt <a href="http://www.google.com/design/" target="_blank">die Google+-Richtlinien</a> für Material-Design.</p>
+              <p><a class="btn btn-lg btn-warning shadow-z-2" href="#beginpromotion" role="button">Jetzt entdecken!</a></p>
             </div>
           </div>
         </div>
@@ -62,22 +62,22 @@ include("templates/navbar.php");
       <!-- Three columns of text below the carousel -->
       <div class="row">
         <div class="col-lg-4">
-          <img class="img-circle" src="img/carousel/inspired.png" height="150" width="150" alt="Design">
+          <img class="img-circle shadow-z-1" src="img/carousel/inspired.png" height="150" width="150" alt="Design">
           <h2>Design</h2>
           <p>Moderner als je zuvor.</p>
-          <p><a class="btn btn-plus" href="#design" role="button">Mehr Infos &raquo;</a></p>
+          <p><a class="btn btn-primary shadow-z-2" href="#design" role="button">Mehr Infos &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
-          <img class="img-circle" src="img/promoting/google-bell.png" height="150" width="150" alt="Navbar">
+          <img class="img-circle shadow" src="img/promoting/google-bell.png" height="150" width="150" alt="Navbar">
           <h2>Navbar</h2>
           <p>Damit du immer alles im Blick hast.</p>
-          <p><a class="btn btn-plus" href="#navbar" role="button">Mehr Infos &raquo;</a></p>
+          <p><a class="btn btn-primary shadow-z-2" href="#navbar" role="button">Mehr Infos &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
-          <img class="img-circle" src="img/promoting/now.jpg" height="150" width="150" alt="Generic placeholder image">
+          <img class="img-circle shadow-z-1" src="img/promoting/now.jpg" height="150" width="150" alt="Generic placeholder image">
           <h2>Oneboxen</h2>
           <p>Bildschirme werden mehr breiter als höher. Und Smartphones und Tablets sind total im Trend!</p>
-          <p><a class="btn btn-plus" href="#bootstrap" role="button">Mehr Infos &raquo;</a></p>
+          <p><a class="btn btn-primary shadow-z-2" href="#bootstrap" role="button">Mehr Infos &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
       </div><!-- /.row -->
 
@@ -90,10 +90,10 @@ include("templates/navbar.php");
     <div class="col-md-6">
     <div class="panel panel-default">
     <div class="panel-heading">
-      <h4>Ein moderneres Design</h4>
+      <h4>Ein materielles, modernes Design</h4>
     </div>
     <div class="panel-body">
-    <p>Dieses Design beeindruckt einfach alle. Sieht aus wie Google+ und verhält sich super auf allen Bildschirmgrößen!</p>
+    <p>Dieses Design beeindruckt einfach alle. Das neue Material-Design von Google sieht klasse aus und verhält sich super auf allen Bildschirmgrößen!</p>
     <p>Schon das alte ANDIBI.TK konnte mit Responsivheit prahlen, nun wird der Platz noch besser genutzt!</p>
     </div>
     </div>
@@ -109,8 +109,8 @@ include("templates/navbar.php");
         <div class="col-md-6">
             <a id="navbar"></a>
             <div class="well">
-          <img class="featurette-image img-responsive" src="img/promoting/navbar-bell.png" alt="Navbar-Glocke">
-          <img class="featurette-image img-responsive" src="img/promoting/newmodal.png" alt="Benachrichtigungs-Modal">
+          <img class="featurette-image img-responsive" src="img/promoting/navbar.png" alt="Navbar">
+          <img class="featurette-image img-responsive" src="img/promoting/modal.png" alt="Benachrichtigungs-Modal">
             </div>
         </div>
         <div class="col-md-6">

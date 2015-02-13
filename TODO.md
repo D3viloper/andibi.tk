@@ -1,4 +1,0 @@
-- [X] Opera Presto Support fixen (wontfix)
-- [X] Verschwindende Navbar beim Hochscrollen im Opera-Browser für Android (wontfix)
-- [ ] Material-Design-Icons nutzen
-- [X] User-Agent Textfeld zu klein auf dem Handy

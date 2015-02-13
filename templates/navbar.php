@@ -1,4 +1,4 @@
-    <div class="navbar navbar-default navbar-fixed-top">
+    <div class="navbar navbar-default navbar-fixed-top shadow-z-3">
     <div class="col-md-12">
       <div class="navbar-header">
           <a class="navbar-brand" href="index.php"><?php echo $config_page['maintitle']; ?></a>

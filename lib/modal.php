@@ -4,7 +4,7 @@ function modal($title) {
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
                 <h2 class="text-center">' . $title . '</h2>
             </div>
             <div class="modal-body">

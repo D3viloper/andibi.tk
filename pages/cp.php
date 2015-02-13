@@ -14,8 +14,9 @@ include("templates/navbar.php");
      <div class="panel-body">
       <p>Alte Tricks werden neu aufgewärmt: Mittels einem einfachen HTML-Tag wird der Text, den man kopiert, ganz anders!</p>
 <p>Teste es selbst:</p>
-            <div class="well">
-            <p>Kopiere diesen <span style="position: absolute; left: -1000px; top: -1000px">Text bloß nicht! Dies ist ein gefakter </span>Text!</p></div>
+         <div class="well">
+            <p>Kopiere diesen <span style="position: absolute; left: -1000px; top: -1000px">Text bloß nicht! Dies ist ein gefakter </span>Text!</p>
+         </div>
       </div>
       </div>
     <div class="well">
