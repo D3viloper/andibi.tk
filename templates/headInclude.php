@@ -9,22 +9,22 @@
     <link rel="shortcut icon" href="favicon.ico">
       <title><?php echo $config_page['maintitle'] . " | " . $shownpage_page['title']; ?></title>
       <!-- Bootstrap core CSS -->
-      <link rel="stylesheet" href="static/css/bootstrap.min.css">
+      <link rel="stylesheet" href="<?php echo $root; ?>static/css/bootstrap.min.css">
       <!-- Custom styles for this page -->
-	<link href="static/css/ripples.min.css" rel="stylesheet">
-	<link href="static/css/material-wfont.min.css" rel="stylesheet">
-	<link href="static/css/custom.css" rel="stylesheet">
+	<link href="<?php echo $root; ?>static/css/ripples.min.css" rel="stylesheet">
+	<link href="<?php echo $root; ?>static/css/material-wfont.min.css" rel="stylesheet">
+	<link href="<?php echo $root; ?>static/css/custom.css" rel="stylesheet">
       <?php if($shownpage_page['page_idf'] == "404"):?>
       <!-- Custom styles for this error page -->
-      <link rel="stylesheet" href="static/css/404.css">
+      <link rel="stylesheet" href="<?php echo $root; ?>static/css/404.css">
     <?php endif;?>
     <?php if($shownpage_page['page_idf'] == "discover"):?>
       <!-- Custom styles for this error page -->
-      <link rel="stylesheet" href="static/css/carousel.css">
+      <link rel="stylesheet" href="<?php echo $root; ?>static/css/carousel.css">
     <?php endif;?>
     <?php if($shownpage_page['genericons'] == "true"): ?>
-    <link href="static/css/genericons.css" rel="stylesheet">
-    <link href="static/css/custom-genericons.css" rel="stylesheet">
+    <link href="<?php echo $root; ?>static/css/genericons.css" rel="stylesheet">
+    <link href="<?php echo $root; ?>static/css/custom-genericons.css" rel="stylesheet">
     <?php endif;?>
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries (IE SUCKS!) -->
     <!--[if lt IE 9]>

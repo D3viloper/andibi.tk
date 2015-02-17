@@ -16,7 +16,7 @@ include("templates/navbar.php");
                     Es sieht so aus, als wurde diese Seite nicht gefunden. Möglicherweise wurde eine falsche Adresse eingegeben ode auf einen Link geklickt, der nicht mehr existiert.
                 </div>
                 <div class="error-actions">
-                    <a href="index.php" class="btn btn-primary btn-lg"><span class="glyphicon glyphicon-home"></span>
+                    <a href="<?php echo $root; ?>index.php" class="btn btn-primary btn-lg"><span class="glyphicon glyphicon-home"></span>
                         Zur Startseite </a><a href="https://github.com/Brawl345/andibi.tk/issues?state=open" target="_blank" class="btn btn-default btn-lg"><span class="glyphicon glyphicon-bullhorn"></span> Fehler melden </a>
                 </div>
             </div>

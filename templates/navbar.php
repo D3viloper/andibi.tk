@@ -1,7 +1,7 @@
     <div class="navbar navbar-default navbar-fixed-top shadow-z-3">
     <div class="col-md-12">
       <div class="navbar-header">
-          <a class="navbar-brand" href="index.php"><?php echo $config_page['maintitle']; ?></a>
+          <a class="navbar-brand" href="<?php echo $root; ?>index.php"><?php echo $config_page['maintitle']; ?></a>
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse2">
         <span class="sr-only">Navigation umschalten</span>
         <span class="icon-bar"></span>
@@ -17,12 +17,12 @@
               <a href="#" class="dropdown-toggle" data-toggle="dropdown"><?php echo $value['text'];?> <b class="caret"></b></a>
               <ul class="dropdown-menu">
                 <?php foreach ($value['elements'] as $element) :?>
-                <li <?php if ($shownpage_page['page_idf'] == $element['page_idf']) {echo 'class="active"';}?>><a href="<?php echo $element['page_idf'] . ".php";?>"><?php echo $element['text']; ?></a>
+                <li <?php if ($shownpage_page['page_idf'] == $element['page_idf']) {echo 'class="active"';}?>><a href="<?php echo $root; echo $element['page_idf'] . ".php";?>"><?php echo $element['text']; ?></a>
                 <?php endforeach; ?>
               </ul>
             </li>
             <?php else: ?>
-            <li <?php if ($shownpage_page['page_idf'] == $value['page_idf']) {echo 'class="active"';}?>><a href="<?php echo $value['page_idf'] . ".php"; ?>"><?php echo $value['text'];?></a></li>
+            <li <?php if ($shownpage_page['page_idf'] == $value['page_idf']) {echo 'class="active"';}?>><a href="<?php echo $root; echo $value['page_idf'] . ".php"; ?>"><?php echo $value['text'];?></a></li>
             <?php endif; ?>
             <?php endforeach; ?>
             <?php if ($page_has_extra_navbarentry == "true") :?>
