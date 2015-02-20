@@ -6,7 +6,7 @@
     <meta name="description" content="<?php echo $shownpage_page['description']; ?>">
     <meta name="author" content="Andreas Bielawski">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="shortcut icon" href="<?php echo $root; ?>favicon.ico">
       <title><?php echo $config_page['maintitle'] . " | " . $shownpage_page['title']; ?></title>
       <!-- Bootstrap core CSS -->
       <link rel="stylesheet" href="<?php echo $root; ?>static/css/bootstrap.min.css">
