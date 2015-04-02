@@ -1,4 +1,10 @@
 <?php
+// Information about this page
+$shownpage_page = array("page_idf" => "yt", "title" => "Gesamtspiellänge einer YouTube-Playlist", "description" => "Finde die Gesamtspiellänge einer YouTube-Playlist heraus!");
+include("templates/headInclude.php");
+include("templates/navbar.php");
+
+// Gesamtspiellänge einer YouTube-Playlist herausfinden
 if($_GET['id'] == "")
 {
   $id = "nicht gesetzt";
@@ -7,15 +13,7 @@ else
 {
   $id = htmlspecialchars($_GET['id']);
 }
-// Information about this page
-$shownpage_page = array("page_idf" => "yt", "title" => "Gesamtspiellänge einer YouTube-Playlist", "description" => "Finde die Gesamtspiellänge einer YouTube-Playlist heraus!");
-$page_has_extra_navbarentry = "true";
-$page_has_extra_navbarentry_url = "yt.php";
-$page_has_extra_navbarentry_title = "Gesamtspiellänge einer YouTube-Playlist";
-include("templates/headInclude.php");
-include("templates/navbar.php");
 
-// Gesamtspiellänge einer YouTube-Playlist herausfinden
 $total_seconds = 0;
 $url = 'http://gdata.youtube.com/feeds/api/playlists/' . $id;
 
@@ -26,6 +24,8 @@ $xpath = new DOMXPath($dom);
 foreach ($xpath->query('//yt:duration/@seconds') as $duration) {
     $total_seconds += (int) $duration->value;
 }
+
+$totalduration = (int) ($total_seconds / 3600) . ':' . (int) ($total_seconds / 60) % 60 . ':' . $total_seconds % 60;
 ?>
    <!--main-->
     <div class="container" id="main">
@@ -40,9 +40,20 @@ foreach ($xpath->query('//yt:duration/@seconds') as $duration) {
 	 <input class="form-control floating-label" placeholder="Gebe eine Playlist-ID an (das hinter dem ?list=)" name="id" type="text"><button class="btn btn-primary" type="submit">Absenden</button><br>';
      ?>
       </form>
-      <p>Deine angegebene YouTube-Playlist ist insgesamt so lang:</p>
-	  <p><input class="form-control" name="duration" placeholder="label" type="text" value="<?php echo (int) ($total_seconds / 3600) . ':' . (int) ($total_seconds / 60) % 60 . ':' . $total_seconds % 60; ?>" readonly="readonly"></p>
-	  <p><br>Deine Playlist-ID ist <strong><?php echo $id; ?></strong>. Du erreichst deine Playlist unter;<br><a href="https://youtube.com/playlist?list=<?php echo $id; ?>" target="_blank">https://youtube.com/playlist?list=<?php echo $id; ?></a></p>
+	  
+	  <?php if ($totalduration != '0:0:0') {
+		  echo '<p>Deine angegebene YouTube-Playlist ist insgesamt so lang:</p>
+		  <p><input class="form-control" name="duration" placeholder="label" type="text" value="',$totalduration,'" readonly="readonly"></p>
+		  <p><br>Deine Playlist-ID ist <strong>',$id,'</strong>. Du erreichst deine Playlist unter;<br><a href="https://youtube.com/playlist?list=',$id,'" target="_blank">https://youtube.com/playlist?list=',$id,'</a></p>';
+	  }
+	  else {
+		  if ($id == "nicht gesetzt") {
+			  echo '<p>Gebe eine YouTube-Playlist-ID an</p>';
+		  }
+		  else {
+		  echo '<p>Bei dem übergebenen String handelt es sich nicht um eine YouTube-Playlist-ID.</p>';
+		  }
+	  }?>
       </div>
       </div>
     </div>
