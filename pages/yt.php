@@ -44,7 +44,7 @@ $totalduration = (int) ($total_seconds / 3600) . ':' . (int) ($total_seconds / 6
 	  <?php if ($totalduration != '0:0:0') {
 		  echo '<p>Deine angegebene YouTube-Playlist ist insgesamt so lang:</p>
 		  <p><input class="form-control" name="duration" placeholder="label" type="text" value="',$totalduration,'" readonly="readonly"></p>
-		  <p><br>Deine Playlist-ID ist <strong>',$id,'</strong>. Du erreichst deine Playlist unter;<br><a href="https://youtube.com/playlist?list=',$id,'" target="_blank">https://youtube.com/playlist?list=',$id,'</a></p>';
+		  <p><br>Deine Playlist-ID ist <strong>',$id,'</strong>. Du erreichst sie unter <br><a href="https://youtube.com/playlist?list=',$id,'" target="_blank">https://youtube.com/playlist?list=',$id,'</a></p>';
 	  }
 	  else {
 		  if ($id == "nicht gesetzt") {
