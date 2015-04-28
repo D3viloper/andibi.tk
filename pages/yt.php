@@ -11,20 +11,25 @@ if($_GET['id'] == "")
 }
 else
 {
+	// Hier bekommen wir die Playlist-ID, die der Benutzer eingegeben hat
   $id = htmlspecialchars($_GET['id']);
 }
 
+// Hier setzen wir ein paar Variablen, u.a. die volle URL von YouTube
 $total_seconds = 0;
 $url = 'http://gdata.youtube.com/feeds/api/playlists/' . $id;
 
+// Wir laden das ganze in ein DOM (= Document Object Model, damit kann XML verarbeitet werden)...
 $dom = new DOMDocument();
 $dom->loadXML(file_get_contents($url));
 
+// ...und nehmen dann von JEDEM Video in der Playlist die Videolange (in Millisekunden!)
 $xpath = new DOMXPath($dom);
 foreach ($xpath->query('//yt:duration/@seconds') as $duration) {
     $total_seconds += (int) $duration->value;
 }
 
+// Die Millisekunden werden in das Format Stunden:Minuten:Sekunden umgerechnet
 $totalduration = (int) ($total_seconds / 3600) . ':' . (int) ($total_seconds / 60) % 60 . ':' . $total_seconds % 60;
 ?>
    <!--main-->
