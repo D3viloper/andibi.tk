@@ -68,7 +68,7 @@ $totalduration = (int) ($total_seconds / 3600) . ':' . (int) ($total_seconds / 6
       <h4>HINWEIS</h4>
         <p>Mit dieser Website kannst du die Gesamtspiellänge einer YouTube-Playlist herausfinden! Hänge einfach <code>?id=PLAYLIST-ID</code> an die URL an, bspw.<br><a href="yt.php?id=PLAZbIQwTqfrhC_n9vDlbKxRWE-B5vm1qq">?id=PLAZbIQwTqfrhC_n9vDlbKxRWE-B5vm1qq</a>.</p>
 		<p>Die Playlist-ID findest du auf YouTube in der URL unter ""<i>?list=PLAYLIST-ID</i>".</p>
-		<p><img src="img/assets/yt-erklaerung.png" alt="YouTube-Markierung"></p>
+		<p><img class="img-responsive" src="img/assets/yt-erklaerung.png" alt="YouTube-Markierung"></p>
 	</div>
 
 
