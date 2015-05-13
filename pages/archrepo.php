@@ -1,11 +1,12 @@
 <?php
-$shownpage_page = array("page_idf" => "archrepo", "title" => "Arch Linux Repo", "description" => "[andi] Arch Repo");
-$page_has_extra_navbarentry = "true";
-$page_has_extra_navbarentry_url = "archrepo.php";
-$page_has_extra_navbarentry_title = "ANDIBI.TK Arch Repo (Archiv)";
-include("templates/headInclude.php");
-include("templates/navbar.php");
+  $shownpage_page = array("page_idf" => "archrepo", "title" => "Arch Linux Repo", "description" => "[andi] Arch Repo");
+  $page_has_extra_navbarentry = "true";
+  $page_has_extra_navbarentry_url = "archrepo.php";
+  $page_has_extra_navbarentry_title = "ANDIBI.TK Arch Repo (Archiv)";
+  include("templates/headInclude.php");
+  include("templates/navbar.php");
 ?>
+
     <!--main-->
     <div class="container" id="main">
     <div class="row">

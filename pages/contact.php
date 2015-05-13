@@ -1,7 +1,7 @@
 <?php
-$shownpage_page = array("page_idf" => "contact", "title" => "Kontakt", "description" => "ANDIBI.TK Kontakt");
-include("templates/headInclude.php");
-include("templates/navbar.php");
+  $shownpage_page = array("page_idf" => "contact", "title" => "Kontakt", "description" => "ANDIBI.TK Kontakt");
+  include("templates/headInclude.php");
+  include("templates/navbar.php");
 ?>
     <!--main-->
     <div class="container" id="main">

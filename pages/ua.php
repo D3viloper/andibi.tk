@@ -1,7 +1,7 @@
 <?php
-$shownpage_page = array("page_idf" => "ua", "title" => "User-Agent &amp; IP", "isindropdown" => "tools", "description" => "ANDIBI.TK - Dein User-Agent und deine IP");
-include("templates/headInclude.php");
-include("templates/navbar.php");
+  $shownpage_page = array("page_idf" => "ua", "title" => "User-Agent &amp; IP", "isindropdown" => "tools", "description" => "ANDIBI.TK - Dein User-Agent und deine IP");
+  include("templates/headInclude.php");
+  include("templates/navbar.php");
 ?>
     <!--main-->
     <div class="container" id="main">

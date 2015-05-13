@@ -1,10 +1,10 @@
 <?php
-$shownpage_page = array("page_idf" => "discover", "title" => "Ein neues Design für ANDIBI.TK (2015)", "description" => "Entdecke das neue Material-Design für ANDIBI.TK");
-$page_has_extra_navbarentry = "true";
-$page_has_extra_navbarentry_url = "discover.php";
-$page_has_extra_navbarentry_title = "Ein neues Design für ANDIBI.TK (2015)";
-include("templates/headInclude.php");
-include("templates/navbar.php");
+  $shownpage_page = array("page_idf" => "discover", "title" => "Ein neues Design für ANDIBI.TK (2015)", "description" => "Entdecke das neue Material-Design für ANDIBI.TK");
+  $page_has_extra_navbarentry = "true";
+  $page_has_extra_navbarentry_url = "discover.php";
+  $page_has_extra_navbarentry_title = "Ein neues Design für ANDIBI.TK (2015)";
+  include("templates/headInclude.php");
+  include("templates/navbar.php");
 ?>
     <!-- Carousel
     ================================================== -->

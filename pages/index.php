@@ -1,7 +1,7 @@
 <?php
-$shownpage_page = array("page_idf" => "index", "title" => "Home", "description" => "ANDIBI.TK - Die private Website vom Macher der WiiDatabase");
-include("templates/headInclude.php");
-include("templates/navbar.php");
+  $shownpage_page = array("page_idf" => "index", "title" => "Home", "description" => "ANDIBI.TK - Die private Website vom Macher der WiiDatabase");
+  include("templates/headInclude.php");
+  include("templates/navbar.php");
 ?>
     <!--main-->
     <div class="container" id="main">

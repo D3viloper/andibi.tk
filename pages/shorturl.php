@@ -1,10 +1,10 @@
 <?php
-$shownpage_page = array("page_idf" => "shorturl", "title" => "ANDIB.TK Kurz-URL", "description" => "Kurz-URL ANDIB.TK Info-Seite");
-$page_has_extra_navbarentry = "true";
-$page_has_extra_navbarentry_url = "shorturl.php";
-$page_has_extra_navbarentry_title = "ANDIB.TK Kurz-URL";
-include("templates/headInclude.php");
-include("templates/navbar.php");
+  $shownpage_page = array("page_idf" => "shorturl", "title" => "ANDIB.TK Kurz-URL", "description" => "Kurz-URL ANDIB.TK Info-Seite");
+  $page_has_extra_navbarentry = "true";
+  $page_has_extra_navbarentry_url = "shorturl.php";
+  $page_has_extra_navbarentry_title = "ANDIB.TK Kurz-URL";
+  include("templates/headInclude.php");
+  include("templates/navbar.php");
 ?>
    <!--main-->
     <div class="container" id="main">
