@@ -18,7 +18,8 @@ include("templates/navbar.php");
    <!--main-->
     <div class="container" id="main">
     <div class="row">
-        <div class="col-md-6 col-sm-6">
+	  <?php echo meldung('Achtung, Chrome-User: <a href="https://blog.chromium.org/2015/05/continuing-to-protect-chrome-users-from.html" target="_blank"><strong>ab Juli 2015</strong></a> wird es in keinem Kanal unter Windows und OS X mehr möglich sein, Erweiterungen außerhalb des Web Stores zu installieren.<br>Choose Independent - <a href="https://www.mozilla.org/de/firefox/new/" target="_blank"><strong>Choose Firefox!</strong></a>', danger); ?>
+      <div class="col-md-6 col-sm-6">
     <div class="panel panel-default">
     <div class="panel-heading">
       <h4><?php echo $extension ?>-Erweiterung installieren</h4>
@@ -38,7 +39,7 @@ include("templates/navbar.php");
     <div class="col-md-6 col-sm-6">
     <div class="well">
       <h4>HINWEISE</h4>
-      <p>Unter Windows benötigst du die <a href="https://www.google.com/chrome/eula.html?extra=devchannel" target="_blank">Developer-</a> oder die <a href="https://www.google.com/intl/de/chrome/browser/canary.html" target="_blank">Canary-Version</a> von Google Chrome.</p>
+      <p>Unter Windows benötigst du die <a href="https://www.google.com/chrome/eula.html?extra=devchannel" target="_blank">Developer-</a> oder die <a href="https://www.google.com/intl/de/chrome/browser/canary.html" target="_blank">Canary-Version</a> von Google Chrome. <strong>Ab Juli 2015 funktioniert diese Anleitung nur noch mit der Linux-Version von Google Chrome.</strong></p>
         <p>Mit dieser Website kannst du die Anleitung zum Installieren einer Erweiterung ganz einfach verlinken! Hänge einfach <code>?extension=NAME</code> an die URL an, bspw.<br><a href="chrome-extension.php?extension=APK-Downloader">?extension=APK-Downloader</a>.</p>
     </div>
 
