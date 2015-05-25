@@ -13,7 +13,7 @@
   }
 
   $total_seconds = 0;
-  $url = 'http://gdata.youtube.com/feeds/api/playlists/' . $id;
+  $url = 'http://gdata.youtube.com/feeds/api/playlists/'.$id.'?max-results=50';
 
   $dom = new DOMDocument();
   $dom->loadXML(file_get_contents($url));
@@ -62,6 +62,7 @@
       <h4>HINWEIS</h4>
         <p>Mit dieser Website kannst du die Gesamtspiellänge einer YouTube-Playlist herausfinden! Hänge einfach <code>?id=PLAYLIST-ID</code> an die URL an, bspw.<br><a href="yt.php?id=PLAZbIQwTqfrhC_n9vDlbKxRWE-B5vm1qq">?id=PLAZbIQwTqfrhC_n9vDlbKxRWE-B5vm1qq</a>.</p>
 		<p>Die Playlist-ID findest du auf YouTube in der URL unter ""<i>?list=PLAYLIST-ID</i>".</p>
+		<p><strong>Die Playlist sollte nicht mehr als 50 Videos besitzen!</strong></p>
 		<p><img class="img-responsive" src="img/assets/yt-erklaerung.png" alt="YouTube-Markierung"></p>
 	</div>
 
