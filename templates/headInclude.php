@@ -14,7 +14,7 @@
 	
       <!-- Custom styles for this page -->
 	<link href="<?php echo $root; ?>static/css/ripples.min.css" rel="stylesheet">
-	<link href="<?php echo $root; ?>static/css/material-wfont.min.css" rel="stylesheet">
+	<link href="<?php echo $root; ?>static/css/material.min.css" rel="stylesheet">
 	<link href="<?php echo $root; ?>static/css/custom.css" rel="stylesheet">
 	
     <?php if($shownpage_page['page_idf'] == "404"):?>
