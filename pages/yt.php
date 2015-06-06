@@ -29,7 +29,8 @@
    <!--main-->
     <div class="container" id="main">
     <div class="row">
-        <div class="col-md-6 col-sm-6">
+	  <?php echo meldung('<strong>ACHTUNG:</strong> Dieses Tool funktioniert nicht mehr, da Google die Version 2 der YouTube-API Ende Mai 2015 endgültig abgeschaltet hat. Die benötigten Videoinformationen (sowas einfaches wie die Zeit, wtf?) erhält man nur noch über Umwege (ID des Vids von der Playlist abfragen, damit dann noch einen Request, bei 50 Videos dauert das dementsprechend auch länger...).<br>Da Google offensichtlich <strong><u><a href="https://code.google.com/p/gdata-issues/issues/detail?id=4294" target="_blank">kein Interesse daran hat</a></u></strong>, die Videoinformationen einfacher zugänglich zu machen, bleibt dieses Tool vorerst funktionslos.<br>Danke für dein Verständnis!', danger); ?>
+      <div class="col-md-6 col-sm-6">
     <div class="panel panel-default">
     <div class="panel-heading">
       <h4>Gesamtspiellänge deiner YouTube-Playlist</h4>
@@ -47,10 +48,10 @@
 	  }
 	  else {
 		  if ($id == "nicht gesetzt") {
-			  echo '<p>Gebe eine YouTube-Playlist-ID an</p>';
+			  echo '<p>Gebe eine YouTube-Playlist-ID an.</p>';
 		  }
 		  else {
-		  echo '<p>Bei dem übergebenen String handelt es sich nicht um eine YouTube-Playlist-ID.</p>';
+		   echo meldung('Siehe Hineis oben.', warning);
 		  }
 	  }?>
       </div>
