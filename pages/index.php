@@ -11,11 +11,11 @@
         <h1>Willkommen auf ANDIBI.TK!</h1>
         <p>Hier erfährst du etwas über mich und meine Projekte außerhalb der WiiDatabase.</p>
           <a class="btn btn-lg btn-success" href="https://github.com/Brawl345/andibi.tk/commits/master" role="button">Letzte Commits ansehen &raquo;</a>
-        <a class="btn btn-lg btn-warning" href="discover.php" role="button">Entdecke das neue Design &raquo;</a>
+        <a class="btn btn-lg btn-warning" href="discover.php" role="button">Entdecke das Design &raquo;</a>
     </div>
     </div>
 
-    <div class="col-md-4">
+    <div class="col-md-6">
     <div class="panel panel-default">
     <div class="panel-heading">
       <h4>WiiDatabase.de</h4>
@@ -29,7 +29,7 @@
     </div>
     </div>
 
-    <div class="col-md-4">
+    <div class="col-md-6">
     <div class="panel panel-default">
     <div class="panel-heading">
       <h4>WiiDatabase Wiki</h4>
@@ -39,24 +39,6 @@
     <div class="clearfix"></div>
       <hr>
     <a href="https://wiki.wiidatabase.de/wiki/Hauptseite" target="_blank" class="list-group-item active shadow-z-2">Besuche das WiiDatabase Wiki</a>
-    </div>
-    </div>
-    </div>
-
-    <div class="col-md-4">
-    <div class="panel panel-default">
-    <div class="panel-heading">
-      <h4>Pegelf.de (Partner)</h4>
-    </div>
-    <div class="panel-body">
-    <p>Laufen dein PC oder deine Konsole nicht? Hast du keinen Minecraftserver zum Zocken? Oder ist dir einfach langweilig?<br><br>
-
-  Gegen diese Probleme wirst du in unserer Community viele freundliche Helfer finden.
-  Seit mehreren Jahren treffen sich gleichgesinnte Technikfans im Teenageralter, um sich über das Neuste auszutauschen und Spass zu haben.
-  Wir bieten dir ein Forum, einen Blog und einen Minecraftserver. Wenn du dich also angesprochen fühlst, worauf wartest du noch?</p>
-    <div class="clearfix"></div>
-      <hr>
-    <a href="https://pegelf.de" target="_blank" class="list-group-item active shadow-z-2">Besuche Pegelf.de</a>
     </div>
     </div>
     </div>

@@ -30,7 +30,7 @@
             <?php endif; ?>
           </ul>
       <ul class="nav navbar-right navbar-nav">
-        <li><a href="https://google.com/+AndreasBielawski" target="_blank">+ANDIBI</a></li>
+        <li><a href="http://wiidatabase.de" target="_blank">WiiDatabase.de</a></li>
         <li><a href="#newModal" data-toggle="modal"><i class="glyphicon glyphicon-bell"></i><?php if($config_global_meldung['activated'] == "true"): echo '<span class="label label-danger pull-right">'; echo ''. $config_global_meldung['bell_count'] .'</span>'; endif; ?></a></li>
         <li><a href="https://plus.google.com/share?url=<?php echo getCurrentUrl(); ?>" target="_blank"><i class="glyphicon glyphicon-share"></i></a></li>
       </ul>

@@ -53,15 +53,8 @@
             </div>
             <div class="panel-body">
               <a href="https://twitter.com/WiiDatabase" target="_blank"><span class="twitter"></span></a>
-              <a href="http://www.pinterest.com/AndiBie/" target="_blank"><span class="pinterest"></span></a>
-              <span class="skype"></span>
               <a href="https://github.com/brawl345" target="_blank"><span class="github"></span></a>
-              <a href="http://reddit.com/u/brawl345" target="_blank"><span class="reddit"></span></a>
-              <a href="http://flickr.com/brawl98" target="_blank"><span class="flickr"></span></a>
               <a href="http://www.youtube.com/user/Meleefan100" target="_blank"><span class="youtube"></span></a>
-              <div class="clearfix"></div>
-			  <hr>
-			  <p>Nur berechtigte Personen dürfen mich in Skype adden. Private Accounts sind nicht verlinkt.</p>
 		    </div>
           </div>
         </div>
