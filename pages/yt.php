@@ -51,7 +51,7 @@
 			  echo '<p>Gebe eine YouTube-Playlist-ID an.</p>';
 		  }
 		  else {
-		   echo meldung('Siehe Hineis oben.', warning);
+		   echo meldung('Siehe Hinweis oben.', warning);
 		  }
 	  }?>
       </div>
