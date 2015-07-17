@@ -1,8 +1,8 @@
 <?php
-  $shownpage_page = array("page_idf" => "discover", "title" => "Ein neues Design für ANDIBI.TK (2015)", "description" => "Entdecke das neue Material-Design für ANDIBI.TK");
+  $shownpage_page = array("page_idf" => "discover", "title" => "Ein einzigartiges Design für ANDIBI.TK", "description" => "Entdecke das einzigartige Material-Design für ANDIBI.TK");
   $page_has_extra_navbarentry = "true";
   $page_has_extra_navbarentry_url = "discover.php";
-  $page_has_extra_navbarentry_title = "Ein neues Design für ANDIBI.TK (2015)";
+  $page_has_extra_navbarentry_title = "Ein einzigartiges Design für ANDIBI.TK";
   include("templates/headInclude.php");
   include("templates/navbar.php");
 ?>
@@ -20,8 +20,8 @@
           <img src="img/carousel/material.jpg" alt="ANDIBI.TK">
           <div class="container">
             <div class="carousel-caption">
-              <h1>Ein neues Jahr, ein neues Design</h1>
-              <p>ANDIBI.TK hat jetzt ein brandneues Design, welches auf der Höhe der Zeit ist!</p>
+              <h1>Einzigartiges Material-Design</h1>
+              <p>ANDIBI.TK benutzt das einzigartige Material-Design!</p>
               <p><a class="btn btn-lg btn-danger shadow-z-2" href="index.php" role="button">Jetzt erleben</a></p>
             </div>
           </div>
@@ -40,8 +40,8 @@
           <img src="img/carousel/inspired.png" alt="Inspiriert vom Android 5">
           <div class="container">
             <div class="carousel-caption">
-                <h1>Inspiriert von Android 5</h1>
-              <p>Das neue Design für ANDIBI.TK befolgt <a href="http://www.google.com/design/" target="_blank">die Google+-Richtlinien</a> für Material-Design.</p>
+                <h1>Inspiriert von Android 5 "Lollipop"</h1>
+              <p>Das Material-Design für ANDIBI.TK befolgt <a href="http://www.google.com/design/" target="_blank">die Google+-Richtlinien</a> für Material-Design.</p>
               <p><a class="btn btn-lg btn-warning shadow-z-2" href="#beginpromotion" role="button">Jetzt entdecken!</a></p>
             </div>
           </div>
@@ -93,7 +93,7 @@
       <h4>Ein materielles, modernes Design</h4>
     </div>
     <div class="panel-body">
-    <p>Dieses Design beeindruckt einfach alle. Das neue Material-Design von Google sieht klasse aus und verhält sich super auf allen Bildschirmgrößen!</p>
+    <p>Dieses Design beeindruckt einfach alle. Das Material-Design von Google sieht klasse aus und verhält sich super auf allen Bildschirmgrößen!</p>
     <p>Schon das alte ANDIBI.TK konnte mit Responsivheit prahlen, nun wird der Platz noch besser genutzt!</p>
     </div>
     </div>
@@ -116,10 +116,10 @@
         <div class="col-md-6">
              <div class="panel panel-default">
     <div class="panel-heading">
-      <h4>Eine neue Navbar</h4>
+      <h4>Eine immer präsente Navbar</h4>
     </div>
     <div class="panel-body">
-    <p>Überall präsent: Die neue gestaltete Navbar! Jetzt mit einer Benachrichtigungsglocke, sodass du neue Nachrichten nie verpasst und sie dir trotzdem nicht im Weg stehen!</p>
+    <p>Überall präsent: Die Navbar! Jetzt mit einer Benachrichtigungsglocke, sodass du neue Nachrichten nie verpasst und sie dir trotzdem nicht im Weg stehen!</p>
     </div>
     </div>
         </div>
@@ -135,7 +135,7 @@
                 <h4>OneBoxen</h4>
             </div>
              <div class="panel-body">
-    <p>Mit den neuen OneBoxen - bekannt aus Google Now und Google-Suche - siehst du mehr Informationen auf einmal.</p>
+    <p>Mit den OneBoxen - bekannt aus Google Now und Google-Suche - siehst du mehr Informationen auf einmal.</p>
     </div>
         </div>
             </div>
