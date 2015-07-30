@@ -10,5 +10,6 @@
 	  $.material.init();
 	  });
 	</script>
+	<script src="<?php echo $root; ?>static/js/pinnedsite.js"></script>
 </body>
 </html>
