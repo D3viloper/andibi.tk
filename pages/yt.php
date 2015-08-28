@@ -1,5 +1,8 @@
 <?php
   $shownpage_page = array("page_idf" => "yt", "title" => "Gesamtspiellänge einer YouTube-Playlist", "description" => "Finde die Gesamtspiellänge einer YouTube-Playlist heraus!");
+  $page_has_extra_navbarentry = "true";
+  $page_has_extra_navbarentry_url = "yt.php";
+  $page_has_extra_navbarentry_title = "Gesamtspiellänge einer YouTube-Playlist";
   include("templates/headInclude.php");
   include("templates/navbar.php");
 
