@@ -1,8 +1,6 @@
 <?php
   $shownpage_page = array("page_idf" => "discover", "title" => "Ein einzigartiges Design für ANDIBI.TK", "description" => "Entdecke das einzigartige Material-Design für ANDIBI.TK");
   $page_has_extra_navbarentry = "true";
-  $page_has_extra_navbarentry_url = "discover.php";
-  $page_has_extra_navbarentry_title = "Ein einzigartiges Design für ANDIBI.TK";
   include("templates/headInclude.php");
   include("templates/navbar.php");
 ?>

@@ -26,7 +26,7 @@
             <?php endif; ?>
             <?php endforeach; ?>
             <?php if ($page_has_extra_navbarentry == "true") :?>
-            <li class="active"><a href="<?php echo $page_has_extra_navbarentry_url; ?>"><?php echo $page_has_extra_navbarentry_title; ?></a></li>
+            <li class="active"><a href="<?php echo $shownpage_page['page_idf']; ?>.php"><?php echo $shownpage_page['title']; ?></a></li>
             <?php endif; ?>
           </ul>
       <ul class="nav navbar-right navbar-nav">
