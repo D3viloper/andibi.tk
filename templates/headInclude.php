@@ -8,6 +8,10 @@
 	
 	<title><?php echo $config_page['maintitle'] . " | " . $shownpage_page['title']; ?></title>
     <link rel="shortcut icon" href="<?php echo $root; ?>favicon.ico">
+	
+	<link rel="prefetch" href="https://andibi.tk/static/css/ripples.min.css">
+	<link rel="prefetch" href="https://andibi.tk/static/css/material.min.css">
+	<link rel="prefetch" href="https://andibi.tk/static/css/custom.min.css">
     
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="<?php echo $root; ?>static/css/bootstrap.min.css">
