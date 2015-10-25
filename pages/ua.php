@@ -25,7 +25,7 @@
     <div class="well">
       <h4>Deine IP-Adresse lautet:</h4>
   <input class="form-control" name="ip" placeholder="label" type="text" value="<?php echo $_SERVER['REMOTE_ADDR']; ?>" readonly="readonly">
-  <p><strong>Hinweis:</strong> Dies ist die IP-Adresse von CloudFlare - benutze bitte einen anderen Dienst für IP-Erkennung!</p>
+  <p><strong>Hinweis:</strong> Um deine IP-Adresse zu sehen, musst du auf <a href="http://nocf.andibi.tk/ua.php">nocf.andibi.tk</a> umschalten.</p>
     </div>
 
     <div class="panel panel-default">
