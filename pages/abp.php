@@ -10,7 +10,7 @@
     <div class="jumbotron">
         <h1>Brawls Blocking List</h1>
         <p>Filterliste für Adblock Plus - filtert nervige, dumme Sachen im Web!</p>
-          <a class="btn btn-lg btn-success" href="abp:subscribe?location=http%3A%2F%2Fandibi.tk%2Ffilterlist.txt&amp;title=Brawls%20Blocking%20List" role="button">Filterliste abonnieren</a>
+          <a class="btn btn-lg btn-success" href="abp:subscribe?location=https%3A%2F%2Fandibi.tk%2Ffilterlist.txt&amp;title=Brawls%20Blocking%20List" role="button">Filterliste abonnieren</a>
         <a class="btn btn-lg btn-warning" href="https://adblockplus.org/de/" role="button" target="_blank">Adblock Plus holen</a>
     </div>
     </div>
