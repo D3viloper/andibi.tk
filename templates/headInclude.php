@@ -9,16 +9,20 @@
 	<title><?php echo $config_page['maintitle'] . " | " . $shownpage_page['title']; ?></title>
     <link rel="shortcut icon" href="<?php echo $root; ?>favicon.ico">
 	
+	<link rel="prefetch" href="https://andibi.tk/static/css/bootstrap.min.css">
 	<link rel="prefetch" href="https://andibi.tk/static/css/ripples.min.css">
-	<link rel="prefetch" href="https://andibi.tk/static/css/material.min.css">
+	<link rel="prefetch" href="https://andibi.tk/static/css/bootstrap-material-design.min.css">
 	<link rel="prefetch" href="https://andibi.tk/static/css/custom.min.css">
     
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="<?php echo $root; ?>static/css/bootstrap.min.css">
 	
+	<!-- Feeds -->
+	<link rel="alternate" type="application/rss+xml" title="Kürzliche Änderungen" href="https://github.com/Brawl345/andibi.tk/commits/master.atom" />
+	
       <!-- Custom styles for this page -->
 	<link href="<?php echo $root; ?>static/css/ripples.min.css" rel="stylesheet">
-	<link href="<?php echo $root; ?>static/css/material.min.css" rel="stylesheet">
+	<link href="<?php echo $root; ?>static/css/bootstrap-material-design.min.css" rel="stylesheet">
 	<link href="<?php echo $root; ?>static/css/custom.css" rel="stylesheet">
 	
     <?php if($shownpage_page['page_idf'] == "404"):?>
