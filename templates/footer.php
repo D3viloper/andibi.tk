@@ -1,4 +1,5 @@
-    </div> <!-- /main -->
+   <noscript><?php echo meldung('<strong>HINWEIS:</strong> ANDIBI.TK benötigt JavaScript, um ordentlich zu funktionieren. Aktiviere bitte JavaScript!', warning); ?></noscript>
+   </div> <!-- /main -->
     </div> <!-- /wrap -->
     <div id="footer">
       <div class="container col-md-12 text-center">
