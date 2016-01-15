@@ -77,7 +77,7 @@
                   </a>
                   <div class="media-body">
                     <h4 class="media-heading">Brawl345</h4>
-                    <p><span class="label label-info shadow-z-1">9 Repositorys</span></p>
+                    <p><span class="label label-info shadow-z-1">21 Repositorys</span></p>
                     <p><a href="https://github.com/Brawl345" class="btn btn-xs btn-primary shadow-z-2" target="_blank"><span class="glyphicon glyphicon-heart"></span> Folgen</a></p>
                   </div>
                 </div>
@@ -89,13 +89,13 @@
         <div class="col-md-4 col-sm-6">
           <div class="panel panel-default">
             <div class="panel-heading">
-              <h4>WiiDataDownloader</h4>
+              <h4>Brawls Blocking-List</h4>
             </div>
             <div class="panel-body">
-              <p>Ein Programm, welches Wii-Homebrews von der WiiDatabase herunterlädt.</p>
+              <p>Meine Filterliste für Adblock.</p><br>
               <div class="clearfix"></div>
               <hr>
-              <a href="http://wdd.wiidatabase.de" target="_blank" class="list-group-item active shadow-z-2">Zum Projekt</a>
+              <a href="https://github.com/Brawl345/Brawls-Blocking-List" target="_blank" class="list-group-item active shadow-z-2">Zum Projekt</a>
             </div>
           </div>
         </div>
@@ -109,7 +109,7 @@
               <p>Eine minimaler Paste-Service - der Server hat keine Ahnung von den Daten.</p>
               <div class="clearfix"></div>
               <hr>
-              <a href="http://wiidatabase.de/paste" target="_blank" class="list-group-item active shadow-z-2">Zum Projekt</a>
+              <a href="https://wiidatabase.de/paste" target="_blank" class="list-group-item active shadow-z-2">Zum Projekt</a>
             </div>
           </div>
         </div>

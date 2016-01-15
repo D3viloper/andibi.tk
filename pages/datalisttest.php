@@ -141,20 +141,6 @@
     </div>
     </div>
 
-    <div class="col-md-12 col-sm-6">
-    <div class="well">
-      <h4>Nix wird angezeigt? Es funktioniert nur sparodisch? Es sieht seltsam aus?</h4>
-      <p>Dann beherrscht dein Browser diese HTML5-Features nicht! <a href="https://www.mozilla.org/de/firefox/new/" target="_blank">Installiere einen moderneren Browser</a> für ein schnelleres &amp; besseres Web!</p>
-        <p>Momentane Probleme:</p>
-        <ul>
-	  <li><strong>Chropera:</strong> Besteht als erster Browser ALLES perfekt!</li>
-          <li><strong>Google Chrome:</strong> keine Farbpipette mehr seit Aura, extrem abgespecktes Farbmenü</li>
-          <li><strong>Mozilla Firefox:</strong> keine vordefinierten Farben, kein Kalender</li>
-          <li><strong>Opera:</strong> keine Vorschläge für Daten &amp; Zeiten</li>
-          <li><strong>Internet Explorer:</strong> Hier funktioniert fast gar nichts.</li>
-        </ul>
-    </div>
-    </div>
     </div><!--/row-->
 
     <!-- Footer -->

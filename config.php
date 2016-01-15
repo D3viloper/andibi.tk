@@ -6,9 +6,8 @@ $config_page = array("maintitle" => "ANDIBI.TK");
 $config_navbar_content = array(
                                 array("text" => "Home", "page_idf" => "index"),
                                 array("text" => "Über", "page_idf" => "about"),
-                                array("text" => "Kontakt", "page_idf" => "contact"),
+                                array("text" => "Brawls Blocking-List", "page_idf" => "abp"),
                                 array("dropdown" => "true", "text" => "Tools", "dropdown_idf" => "tools", "elements" => array(
-																															  array("text" => "Brawls Blocking List", "page_idf" => "abp"),
 																															  array("text" => "Datalist-Test", "page_idf" => "datalisttest"),
                                                                                                                               array("text" => "Gefährliches Copy &amp; Paste", "page_idf" => "cp"),
                                                                                                                               array("text" => "User-Agent &amp; IP", "page_idf" => "ua")

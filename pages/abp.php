@@ -37,6 +37,7 @@
     </div>
     <div class="panel-body">
     <p>Du kannst die Filterliste manuell ansehen, indem du unten auf diese attraktive Schaltfläche klickst.</p>
+	<p>Einzelne Aktualisierungen können auf <a href="https://github.com/Brawl345/Brawls-Blocking-List" target="_blank">GitHub</a> angesehen werden.</p>
     <div class="clearfix"></div>
       <hr>
     <a href="http://andibi.tk/filterlist.txt" target="_blank" class="list-group-item active shadow-z-2">Filterliste ansehen</a>
