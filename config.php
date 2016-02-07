@@ -2,7 +2,7 @@
 // Configfile
 
 // Pageinformation
-$config_page = array("maintitle" => "ANDIBI.TK");
+$config_page = array("maintitle" => "ANDIBI.TK", "site_url" => "https://andibi.tk");
 $config_navbar_content = array(
                                 array("text" => "Home", "page_idf" => "index"),
                                 array("text" => "Über", "page_idf" => "about"),
