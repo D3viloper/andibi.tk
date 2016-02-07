@@ -13,12 +13,9 @@
 	<link rel="prefetch" href="https://andibi.tk/static/css/ripples.min.css">
 	<link rel="prefetch" href="https://andibi.tk/static/css/bootstrap-material-design.min.css">
 	<link rel="prefetch" href="https://andibi.tk/static/css/custom.min.css">
-    
-    <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" href="<?php echo $root; ?>static/css/bootstrap.min.css">
 	
 	<!-- Feeds -->
-	<link rel="alternate" type="application/rss+xml" title="Kürzliche Änderungen" href="https://github.com/Brawl345/andibi.tk/commits/master.atom" />
+	<link rel="alternate" type="application/rss+xml" title="Letzte Änderungen" href="https://github.com/Brawl345/andibi.tk/commits/master.atom" />
 	
 	<!-- OpenGraph Tags -->
 	<meta property="og:site_name" content="<?php echo $config_page['maintitle']; ?>" />
@@ -47,6 +44,9 @@
     <link rel="apple-touch-icon" sizes="144x144" href="<?php echo $root; ?>img/apple-touch-icons/apple-touch-icon-144x144.png" />
     <link rel="apple-touch-icon" sizes="152x152" href="<?php echo $root; ?>img/apple-touch-icons/apple-touch-icon-152x152.png" />
 	<link rel="apple-touch-icon" sizes="180x180" href="<?php echo $root; ?>img/apple-touch-icons/apple-touch-icon-180x180.png" />
+	
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="<?php echo $root; ?>static/css/bootstrap.min.css">
 	
       <!-- Custom styles for this page -->
 	<link href="<?php echo $root; ?>static/css/ripples.min.css" rel="stylesheet">
