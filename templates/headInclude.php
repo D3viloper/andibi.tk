@@ -21,7 +21,8 @@
 	<link rel="alternate" type="application/rss+xml" title="Kürzliche Änderungen" href="https://github.com/Brawl345/andibi.tk/commits/master.atom" />
 	
 	<!-- OpenGraph Tags -->
-    <meta property="og:title" content="<?php echo $config_page['maintitle']; ?> | <?php echo $shownpage_page['title']; ?>" />
+	<meta property="og:site_name" content="<?php echo $config_page['maintitle']; ?>" />
+    <meta property="og:title" content="<?php echo $shownpage_page['title']; ?>" />
 	<meta property="og:description" content="<?php echo $shownpage_page['description']; ?>" />
 	<meta property="og:type" content="website" />
 	<meta property="og:url" content="<?php echo $config_page['site_url']; ?>/<?php echo $shownpage_page['page_idf']; ?>.php" />
