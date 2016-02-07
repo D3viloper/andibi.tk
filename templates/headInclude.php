@@ -27,6 +27,12 @@
 	<meta property="og:url" content="<?php echo $config_page['site_url']; ?>/<?php echo $shownpage_page['page_idf']; ?>.php" />
 	<meta property="og:image" content="<?php echo $config_page['site_url']; ?>/img/logo.png" />
 	
+	<!-- Twitter Cards -->
+	<meta name="twitter:card" content="summary" />
+	<meta name="twitter:site" content="@iCONLinux" />
+	<meta name="twitter:title" content="<?php echo $config_page['maintitle']; ?> | <?php echo $shownpage_page['title']; ?>" />
+	<meta name="twitter:description" content="<?php echo $shownpage_page['description']; ?>" />
+	
       <!-- Custom styles for this page -->
 	<link href="<?php echo $root; ?>static/css/ripples.min.css" rel="stylesheet">
 	<link href="<?php echo $root; ?>static/css/bootstrap-material-design.min.css" rel="stylesheet">
