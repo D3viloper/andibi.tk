@@ -51,7 +51,7 @@
       <!-- Custom styles for this page -->
 	<link href="<?php echo $root; ?>static/css/ripples.min.css" rel="stylesheet">
 	<link href="<?php echo $root; ?>static/css/bootstrap-material-design.min.css" rel="stylesheet">
-	<link href="<?php echo $root; ?>static/css/custom.css" rel="stylesheet">
+	<link href="<?php echo $root; ?>static/css/custom.min.css" rel="stylesheet">
 	
     <?php if($shownpage_page['page_idf'] == "404"):?>
       <!-- Custom styles for this error page -->
@@ -60,12 +60,12 @@
     
 	<?php if($shownpage_page['page_idf'] == "discover"):?>
       <!-- Custom styles for this error page -->
-      <link rel="stylesheet" href="<?php echo $root; ?>static/css/carousel.css">
+      <link rel="stylesheet" href="<?php echo $root; ?>static/css/carousel.min.css">
     <?php endif;?>
     
 	<?php if($shownpage_page['genericons'] == "true"): ?>
       <link href="<?php echo $root; ?>static/css/genericons.css" rel="stylesheet">
-      <link href="<?php echo $root; ?>static/css/custom-genericons.css" rel="stylesheet">
+      <link href="<?php echo $root; ?>static/css/custom-genericons.min.css" rel="stylesheet">
     <?php endif;?>
     
 	<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
