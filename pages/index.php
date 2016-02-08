@@ -10,7 +10,7 @@
     <div class="jumbotron">
         <h1>Willkommen auf ANDIBI.TK!</h1>
         <p>Hier erfährst du etwas über mich und meine Projekte außerhalb der WiiDatabase.</p>
-          <a class="btn btn-lg btn-success" href="https://github.com/Brawl345/andibi.tk/commits/master" role="button">Letzte Commits ansehen &raquo;</a>
+          <a class="btn btn-lg btn-success" href="https://github.com/Brawl345/andibi.tk/commits/master" role="button">Letzte &Auml;nderungen &raquo;</a>
         <a class="btn btn-lg btn-warning" href="discover.php" role="button">Entdecke das Design &raquo;</a>
     </div>
     </div>
