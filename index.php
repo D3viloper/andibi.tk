@@ -1,4 +1,5 @@
 <?php
+error_reporting(0);
 if(file_exists("config.php.inc")) {
     include("config.php.inc");
     } else {

@@ -44,7 +44,7 @@
             <p><strong>Geboren:</strong> '98</p>
             <p><strong>Interessen:</strong> PC, Spielekonsolen (Homebrew)</p>
 			<p><strong>Fähigkeiten:</strong> HTML, etwas CSS, etwas PHP</p>
-			<p><strong>OS &amp; Browser:</strong> Ubuntu und Mozilla Firefox</p>
+			<p><strong>OS &amp; Browser:</strong> Windows und Mozilla Firefox</p>
           </div>
 
           <div class="panel panel-default">
@@ -68,7 +68,7 @@
               <h4>Open-Source</h4>
             </div>
             <div class="panel-body">
-              <p>Die meisten meiner Programme sind Open-Source. Freiheit ist das Wichtigste und jeder sollte Einblick in den Quellcode haben, damit man selber ein ruhiges Gewissen hat!</p>
+              <p>Einige meiner Programme sind Open-Source.</p>
               <hr>
               <div class="well well-sm">
                 <div class="media">
@@ -77,7 +77,6 @@
                   </a>
                   <div class="media-body">
                     <h4 class="media-heading">Brawl345</h4>
-                    <p><span class="label label-info shadow-z-1">21 Repositorys</span></p>
                     <p><a href="https://github.com/Brawl345" class="btn btn-xs btn-primary shadow-z-2" target="_blank"><span class="glyphicon glyphicon-heart"></span> Folgen</a></p>
                   </div>
                 </div>
@@ -109,12 +108,12 @@
               <p>Eine minimaler Paste-Service - der Server hat keine Ahnung von den Daten.</p>
               <div class="clearfix"></div>
               <hr>
-              <a href="https://wiidatabase.de/paste" target="_blank" class="list-group-item active shadow-z-2">Zum Projekt</a>
+              <a href="https://paste.wiidatabase.de/" target="_blank" class="list-group-item active shadow-z-2">Zum Projekt</a>
             </div>
           </div>
         </div>
 
-        <div class="col-md-8 col-sm-6">
+        <div class="col-md-4 col-sm-6">
           <div class="panel panel-default">
             <div class="panel-heading">
               <h4>ANDIBI.TK</h4>
@@ -124,6 +123,20 @@
               <div class="clearfix"></div>
               <hr>
               <a href="https://github.com/Brawl345/andibi.tk" target="_blank" class="list-group-item active shadow-z-2">Zum Projekt</a>
+            </div>
+          </div>
+        </div>
+		
+        <div class="col-md-4 col-sm-6">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4>Brawlbot</h4>
+            </div>
+            <div class="panel-body">
+              <p>Ein privater Telegram-Bot, basierend auf Plugins (proprietär).</p>
+              <div class="clearfix"></div>
+              <hr>
+              <a href="https://brawlbot.tk" target="_blank" class="list-group-item active shadow-z-2">Zur Projektseite</a>
             </div>
           </div>
         </div>
