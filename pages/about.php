@@ -15,7 +15,6 @@
             </div>
             <div class="panel-body">
             <p>Ich besitze seit 2011 <a href="http://wiidatabase.de/">WiiDatabase.de</a>. Dort schreibe ich über Nintendo &amp; Homebrew.</p>
-            <p>Ich teste immer mal wieder meine Fähigkeiten aus, auch auf dieser Website. Vielleicht kommt später mehr Inhalt. Bis dahin!</p>
             <form>
               <div class="input-group">
                 <div class="input-group-btn">
@@ -43,8 +42,7 @@
             <p><strong>Nickname:</strong> iCON</p>
             <p><strong>Geboren:</strong> '98</p>
             <p><strong>Interessen:</strong> PC, Spielekonsolen (Homebrew)</p>
-			<p><strong>Fähigkeiten:</strong> HTML, etwas CSS, etwas PHP</p>
-			<p><strong>OS &amp; Browser:</strong> Windows und Mozilla Firefox</p>
+			<p><strong>Fähigkeiten:</strong> LUA, HTML, etwas CSS, etwas PHP</p>
           </div>
 
           <div class="panel panel-default">
@@ -69,7 +67,6 @@
             </div>
             <div class="panel-body">
               <p>Einige meiner Programme sind Open-Source.</p>
-              <hr>
               <div class="well well-sm">
                 <div class="media">
                   <a class="thumbnail pull-left" href="https://github.com/Brawl345">
@@ -88,13 +85,13 @@
         <div class="col-md-4 col-sm-6">
           <div class="panel panel-default">
             <div class="panel-heading">
-              <h4>Brawls Blocking-List</h4>
+              <h4>Nintendont-Updater</h4>
             </div>
             <div class="panel-body">
-              <p>Meine Filterliste für Adblock.</p><br>
+              <p>Ein Updater für Nintendont.</p><br>
               <div class="clearfix"></div>
               <hr>
-              <a href="https://github.com/Brawl345/Brawls-Blocking-List" target="_blank" class="list-group-item active shadow-z-2">Zum Projekt</a>
+              <a href="https://github.com/WiiDatabase/Nintendont-Updater" target="_blank" class="list-group-item active shadow-z-2">Zum Projekt</a>
             </div>
           </div>
         </div>
@@ -130,10 +127,10 @@
         <div class="col-md-4 col-sm-6">
           <div class="panel panel-default">
             <div class="panel-heading">
-              <h4>Brawlbot</h4>
+              <h4>Brawlbot v2</h4>
             </div>
             <div class="panel-body">
-              <p>Ein privater Telegram-Bot, basierend auf Plugins (proprietär).</p>
+              <p>Ein Telegram-Bot, basierend auf Plugins.</p>
               <div class="clearfix"></div>
               <hr>
               <a href="https://brawlbot.tk" target="_blank" class="list-group-item active shadow-z-2">Zur Projektseite</a>
