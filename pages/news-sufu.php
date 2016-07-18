@@ -1,5 +1,5 @@
 <?php
-  $shownpage_page = array("page_idf" => "news-sufu", "title" => "News-Suchmaschine", "description" => "ANDIBI.TK - Finde objektive und seriöse Nachrichten mit der einfachen News-Suchmaschine!");
+  $shownpage_page = array("page_idf" => "news-sufu", "title" => "News-Suchmaschine", "isindropdown" => "tools", "description" => "ANDIBI.TK - Finde objektive und seriöse Nachrichten mit der einfachen News-Suchmaschine!");
   include("templates/headInclude.php");
   include("templates/navbar.php");
   
