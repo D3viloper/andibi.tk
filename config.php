@@ -9,6 +9,7 @@ $config_navbar_content = array(
                                 array("dropdown" => "true", "text" => "Tools", "dropdown_idf" => "tools", "elements" => array(
 																															  array("text" => "Datalist-Test", "page_idf" => "datalisttest"),
                                                                                                                               array("text" => "Gefährliches Copy &amp; Paste", "page_idf" => "cp"),
+																															  array("text" => "News-Suchmaschine", "page_idf" => "news-sufu"),
                                                                                                                               array("text" => "User-Agent &amp; IP", "page_idf" => "ua")
 																															  )
 								     )

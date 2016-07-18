@@ -11,12 +11,10 @@
       <h4>Dein User-Agent lautet:</h4>
        <textarea class="form-control" cols="60" rows="10" readonly="readonly"><?php echo $_SERVER['HTTP_USER_AGENT']; ?></textarea>
     </div>
-    <div class="panel panel-default">
-    <div class="panel-heading">
-      <h4>Was ist ein "User-Agent"?</h4>
-    </div>
+    <div class="panel panel-info">
+    <div class="panel-heading"><h3 class="panel-title">Was ist ein "User-Agent"?</h3></div>
     <div class="panel-body">
-      <p>Der User-Agent ist der String, den dein Browser an eine Website übermittelt. Zum Beispiel wird dann angezeigt, welchen Browser du in welcher Version nutzt.</p>
+      Der User-Agent ist der String, den dein Browser an eine Website übermittelt. Zum Beispiel wird dann angezeigt, welchen Browser du in welcher Version nutzt.
     </div>
     </div>
 
@@ -27,12 +25,10 @@
   <input class="form-control" name="ip" placeholder="label" type="text" value="<?php echo $_SERVER['REMOTE_ADDR']; ?>" readonly="readonly">
     </div>
 
-    <div class="panel panel-default">
-    <div class="panel-heading">
-      <h4>Was ist eine IP-Aresse?</h4>
-    </div>
+    <div class="panel panel-info">
+    <div class="panel-heading"><h3 class="panel-title">Was ist eine IP-Aresse?</h3></div>
     <div class="panel-body">
-      <p>Die IP-Adresse ist eine "Kennung" im Internet, die an Webseiten übermittelt wird. So wird z.B. auch dein Standort bestimmt.</p>
+      Eine IP-Adresse ist eine Adresse in Computernetzen, die – wie das Internet – auf dem Internetprotokoll (IP) basiert. Sie wird Geräten zugewiesen, die an das Netz angebunden sind, und macht die Geräte so adressierbar und damit erreichbar.
     </div>
     </div>
     </div>
