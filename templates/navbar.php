@@ -14,7 +14,7 @@
             <?php foreach ($config_navbar_content as $value) :?>
             <?php if($value['dropdown'] == "true") : ?>
             <li class="dropdown <?php if ($shownpage_page['isindropdown'] == $value['dropdown_idf']) {echo "active";}?>">
-              <a href="#" data-target="#" class="dropdown-toggle" data-toggle="dropdown"><?php echo $value['text'];?> <b class="caret"></b></a>
+              <a href="#" data-target="#" class="dropdown" data-toggle="dropdown"><?php echo $value['text'];?> <b class="caret"></b></a>
               <ul class="dropdown-menu">
                 <?php foreach ($value['elements'] as $element) :?>
                 <li <?php if ($shownpage_page['page_idf'] == $element['page_idf']) {echo 'class="active"';}?>><a href="<?php echo $root; echo $element['page_idf'] . ".php";?>"><?php echo $element['text']; ?></a>
