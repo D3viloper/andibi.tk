@@ -69,7 +69,7 @@
       <link href="<?php echo $root; ?>static/css/genericons.css" rel="stylesheet">
       <link href="<?php echo $root; ?>static/css/custom-genericons.min.css" rel="stylesheet">
     <?php endif;?>
-    
+
 	<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>

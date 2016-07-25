@@ -14,20 +14,38 @@
     <!--main-->
     <div class="container" id="main">
     <div class="row">
-	<div class="col-md-12">
+	<div id="searchform_panel" class="col-md-12">
 	  <div class="panel panel-default">
 		<div class="panel-body">
 		  <!-- Search Form -->
 		  <div class="form-group form-group-lg label-floating">
 		    <form id="search" method="get" action="<?php echo getCurrentUrl(); ?>">
-			  <label for="search_bar" class="control-label">Suchbegriff eingeben</label>
+			  <label for="search_bar" id="search_label" class="control-label" style="display: block">Suchbegriff eingeben</label>
 			  <input type="text" name="q" id="search_bar" class="form-control" value="<?php echo $query; ?>" />
 			</form>
 		  </div>
+		</div>
+	  </div>
+	</div>
+	<div id="microhpone_panel" class="col-md-1" style="display:none">
+	  <div class="panel panel-default">
+		<div class="panel-body">
+		  <!-- Microphone button -->
+		  <img id="microphone" onclick="startDictation()" src="<?php echo $root; ?>img/assets/mic.png" width="38px" />
+		</div>
+	  </div>
+	</div>
+	
+	<?php if($query != ""): ?>
+	<div class="col-md-12">
+	  <div class="panel panel-default">
+		<div class="panel-body">
+		  <!-- Search Results -->
 		<gcse:searchresults-only enableHistory="true" webSearchResultSetSize="filtered_cse"></gcse:searchresults-only>
 		</div>
 	  </div>
 	</div>
+	<?php endif;?>
 
     <div class="col-md-12">
 	  <div class="panel panel-info">
@@ -42,5 +60,14 @@
 
     </div><!--/row-->
     <!-- Footer -->
+	<script>
+	if (window.hasOwnProperty('webkitSpeechRecognition')) { 
+	   /* Speech recognition supported */
+	   document.getElementById("searchform_panel").className = 'col-md-11';
+	   document.getElementById("microhpone_panel").style.display = 'block';
+	} else {
+	  document.getElementById("searchform_panel").className = 'col-md-12';
+	}
+	</script>
 <?php include("templates/footer.php");
       include("templates/htmlEnd.php");?>
