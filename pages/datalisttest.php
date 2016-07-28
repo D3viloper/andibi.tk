@@ -10,7 +10,7 @@
     <div class="panel panel-default">
     <div class="panel-heading"><h3 class="panel-title">Welchen Browser benutzt du?</h3></div>
      <div class="panel-body">
-      <input type="text" value="Schreibe hier!" list="browsers" />
+      <input type="text" placeholder="Schreibe hier!" list="browsers" />
          <datalist id="browsers">
              <option>Chrome</option>
              <option>Firefox</option>
