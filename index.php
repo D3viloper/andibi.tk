@@ -43,7 +43,7 @@ if ($_GET['page']) {
         $file_path = "pages/" . $_GET['page'] . ".php";
         include($file_path);
     } else {
-        header("Status: 404 Not Found"); // Gebe 404 aus
+        http_response_code(404); // Gebe 404 aus
         include("pages/404.php"); // gebe die 404-Seite aus, für den Fall, dass keine ErrorPage gesetzt wurde
     }
 } else {
