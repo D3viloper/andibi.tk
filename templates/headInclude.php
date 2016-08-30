@@ -45,6 +45,9 @@
     <link rel="apple-touch-icon" sizes="152x152" href="<?php echo $root; ?>img/apple-touch-icons/apple-touch-icon-152x152.png" />
 	<link rel="apple-touch-icon" sizes="180x180" href="<?php echo $root; ?>img/apple-touch-icons/apple-touch-icon-180x180.png" />
 	
+	<!-- Chrome for Android meta data -->
+	<meta name="theme-color" content="#009688">
+	
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="<?php echo $root; ?>static/css/bootstrap.min.css">
 	
