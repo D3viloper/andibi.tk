@@ -26,7 +26,7 @@
     </div>
 
     <div class="panel panel-info">
-    <div class="panel-heading"><h3 class="panel-title">Was ist eine IP-Aresse?</h3></div>
+    <div class="panel-heading"><h3 class="panel-title">Was ist eine IP-Adresse?</h3></div>
     <div class="panel-body">
       Eine IP-Adresse ist eine Adresse in Computernetzen, die – wie das Internet – auf dem Internetprotokoll (IP) basiert. Sie wird Geräten zugewiesen, die an das Netz angebunden sind, und macht die Geräte so adressierbar und damit erreichbar.
     </div>
